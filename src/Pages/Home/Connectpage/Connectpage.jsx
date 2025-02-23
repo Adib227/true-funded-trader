@@ -16,7 +16,7 @@ const Connectpage = () => {
         style={{ fontFamily: 'Montserrat, sans-serif' }}
         className="flex justify-between"
       >
-        <div className="w-1/2 pl-0 lg:pl-36 pt-16">
+        <div className="w-1/2 pl-0 lg:pl-36 pt-14">
           <div>
             <h1>
               <button className="w-8 lg:w-10 h-8 lg:h-10 mr-1 lg:mr-2 border rounded-full justify-center align-middle justify-items-center">
@@ -44,15 +44,17 @@ const Connectpage = () => {
               {' '}
               <p>
                 At True Funded Trader, We are committed to maintaining the
-                highest standards of ethical conduct and compliance with legal
-                and regulatory requirements. <br /> <br /> We understand the
-                importance of a robust process for addressing ant reports of
-                illegal activity. this page outlines our comprehensive complaint
-                procedure, ensuring transparency, accountability and prompt
-                action. <br /> <br /> If you wish to report an incident/concern,
-                please send a detailed email to support@truefundedtrader.com{' '}
-                <br /> <br />
-                facilitate a thorough investigation or contact via live chat.
+                highest standards of ethical <br /> conduct and compliance with
+                legal and regulatory requirements. <br /> <br /> We understand
+                the importance of a robust process for addressing ant reports of
+                illegal activity. <br /> this page outlines our comprehensive
+                complaint procedure, ensuring transparency, accountability and
+                prompt action. <br /> <br /> If you wish to report an
+                incident/concern, please send a detailed email to <br />
+                support@truefundedtrader.com <br /> <br />
+                We encourage you to include as much information as possible to
+                facilitate a thorough <br /> investigation or contact via live
+                chat.
               </p>
             </div>
           </div>
