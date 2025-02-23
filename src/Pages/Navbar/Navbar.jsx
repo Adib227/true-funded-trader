@@ -1,6 +1,14 @@
 const Navbar = () => {
+  const Navbackground = {
+    background:
+      'linear - gradient{90deg, rgba(255, 255, 255, 0.15) 0 %, rgba(255, 255, 255, 0.07) 49 %, rgba(255, 255, 255, 0.15) 100 %}',
+  };
   return (
-    <div className="">
+    <div
+      className="absolute top-5 left-1/2 transform -translate-x-1/2 md:[1280px] lg:w-[1920px]  bg-gradient-to-r from-[#FFFFFF12] to-[#FFFFFF26] mt-2 rounded-lg z-50"
+      style={Navbackground}
+      // style="background: linear-gradient(90deg, rgba(255, 255, 255, 0.15) 0%, rgba(255, 255, 255, 0.07) 49%, rgba(255, 255, 255, 0.15) 100%);"
+    >
       <div className="navbar">
         <div className="navbar-start ">
           <div className="dropdown">
@@ -21,12 +29,11 @@ const Navbar = () => {
               </svg>
             </div>
             <ul
-              style={{ fontFamily: 'Inter, sans-serif' }}
               tabIndex={0}
-              className="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow"
+              className="menu text-[14px] menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow"
             >
               <li>
-                <a>Home</a>
+                <a className="text-[#FF451C]">Home</a>
               </li>
               <li>
                 <a>About</a>
@@ -51,19 +58,31 @@ const Navbar = () => {
               </li>
             </ul>
           </div>
-          <img
-            className="w-15 h-13"
-            src="https://i.ibb.co.com/HLR945y2/Logo-true-1.png"
-            alt=""
-          />
+          <div className="block">
+            <div>
+              <img
+                className="w-[84px] h-[50px]"
+                src="https://i.ibb.co.com/kVcGBDDC/Vector.png"
+                alt=""
+              />
+            </div>
+            <div>
+              <p
+                style={{ fontFamily: 'Audiowide, sans-serif' }}
+                className="text-[7.5px]"
+              >
+                True Funded Trader
+              </p>
+            </div>
+          </div>
         </div>
         <div className="navbar-center hidden lg:flex ">
           <ul
             style={{ fontFamily: 'Inter, sans-serif' }}
-            className="menu menu-horizontal px-1"
+            className="menu menu-horizontal px-1 text-[14px]"
           >
             <li>
-              <a>Home</a>
+              <a className="text-[#FF451C]">Home</a>
             </li>
             <li>
               <a>About</a>
@@ -89,12 +108,20 @@ const Navbar = () => {
           </ul>
         </div>
         <div className="navbar-end">
-          <a className="btn btn-ghost">
+          <a
+            style={{ fontFamily: 'Inter, sans-serif' }}
+            className="btn btn-ghost"
+          >
             {' '}
             <img src="https://i.ibb.co.com/MkrrZ4mN/user.png" alt="" />
             Dashboard
           </a>
-          <a className="btn rounded-2xl">Get Started > </a>
+          <a
+            style={{ fontFamily: 'Montserrat, sans-serif' }}
+            className="btn rounded-2xl"
+          >
+            <span>Get Started</span> <span>></span>
+          </a>
         </div>
       </div>
     </div>
