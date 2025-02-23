@@ -6,7 +6,7 @@ import { router } from './Routes/Routes.jsx';
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <div className="max-w-[1920px]">
+    <div className=" lg:max-w-[1920px]">
       <RouterProvider router={router} />
     </div>
   </StrictMode>
