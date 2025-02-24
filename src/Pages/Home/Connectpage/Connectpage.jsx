@@ -111,9 +111,12 @@ const Connectpage = () => {
                   </div>
                 </div>
                 <div className="">
-                  <button className="bg-[#D9D9D9] rounded-3xl py-2 px-10 text-black font-semibold text-[18px] ">
+                  <a
+                    href=""
+                    className="bg-[#D9D9D9] rounded-3xl py-2 px-10 text-black font-semibold text-[18px] "
+                  >
                     Send
-                  </button>
+                  </a>
                 </div>
               </fieldset>
             </form>

@@ -12,7 +12,7 @@ const Navbar = () => {
       <div className="navbar">
         <div className="navbar-start ">
           <div className="dropdown">
-            <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
+            {/* <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 className="h-5 w-5"
@@ -27,7 +27,7 @@ const Navbar = () => {
                   d="M4 6h16M4 12h8m-8 6h16"
                 />
               </svg>
-            </div>
+            </div> */}
             <ul
               tabIndex={0}
               className="menu text-[14px] text-white menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow"
@@ -108,26 +108,32 @@ const Navbar = () => {
           </ul>
         </div>
         <div className="navbar-end">
-          <button className="relative inline-block p-[2px] rounded-lg bg-gradient-to-r from-purple-500 via-pink-500 to-yellow-500 ">
+          <a
+            href=""
+            className="relative inline-block p-[2px] rounded-lg bg-gradient-to-r from-purple-500 via-pink-500 to-yellow-500 "
+          >
             <span className="block px-6 py-2 text-white font-bold rounded-lg bg-gradient-to-r from-[#FF521C] via-[#FFB21E] to-[#FBFF2B] hover:from-black hover:via-green-300 hover:to-black transition-all duration-1000 animate-[gradientMove_5s_infinite_alternate_ease-in-out] bg-[length:1000%_1000%] ">
               Gradient Border Button
             </span>
-          </button>
+          </a>
 
-          <button
+          <a
+            href=""
+            type="button"
             style={{ fontFamily: 'Inter, sans-serif' }}
             className="flex pr-2 bg-amber-400 rounded-3xl py-2 px-4 "
           >
             {' '}
             <img src="https://i.ibb.co.com/MkrrZ4mN/user.png" alt="" />
             Dashboard
-          </button>
-          <button
+          </a>
+          <a
+            href=""
             style={{ fontFamily: 'Montserrat, sans-serif' }}
             className="font-bold rounded-2xl block px-7 py-2 text-white  bg-gradient-to-r from-[#FF521C] via-[#FFB21E] to-[#FBFF2B] hover:bg-green-300"
           >
             <span>Get Started</span> <span>></span>
-          </button>
+          </a>
         </div>
       </div>
     </div>

@@ -22,9 +22,10 @@ const Home = () => {
               <h1
                 style={{ fontFamily: 'Montserrat, sans-serif' }}
                 // className="text-5xl font-bold"
-                className="text-3xl lg:text-5xl font-semibold lg:font-extrabold  "
+                className="text-3xl lg:text-7xl font-semibold lg:font-extrabold  "
               >
-                <span>Modern Prop Trading Firm </span> <br />
+                <span className="shadow-2xl">Modern Prop Trading Firm </span>{' '}
+                <br />
                 <span>With </span>
                 <span>Faster Payouts </span>
                 <span>
@@ -41,18 +42,26 @@ const Home = () => {
                 <br /> and increase your earning potential!
               </p>
               <div className="flex items-center gap-4.5 ">
-                <button
+                <a
+                  href=""
                   style={{ fontFamily: 'Montserrat, sans-serif' }}
-                  className="btn btn-primary rounded-3xl font-semibold  text-[15px] py-5 px-8 "
+                  className="relative py-4 px-8 bg-gradient-to-r from-[#FF5C00] via-[#0DFFF0] to-[#FA0DFF] animate-[gradientMove_6s_infinite_alternate_linear] bg-[length:200%_200%] rounded-4xl font-bold  hover:bg-blue-950 hover:bg-none border-0 shadow-xl hover:border hover:border-[#0DFFF0]   transition-all  duration-700 text-[15px]"
                 >
-                  View Challanges
-                </button>
+                  View Challenges
+                </a>
                 {/* <button className="btn w-14 h-14 rounded-full justify-center align-middle">
                   <img src="https://i.ibb.co.com/7dr4SQXd/play.png" alt="" />
                 </button> */}
-                <button className="w-8 lg:w-12 h-8 lg:h-12 mr-1 lg:mr-2 border rounded-full justify-center align-middle justify-items-center">
-                  <img src="https://i.ibb.co.com/yBdPp8yT/play.png" alt="" />
-                </button>
+                <a
+                  href=""
+                  className="w-8 lg:w-12 h-8 lg:h-12 mr-1 lg:mr-2 border rounded-full justify-center align-middle justify-items-center hover:border-2 hover:border-[#0DFFF0] "
+                >
+                  <img
+                    className=" pt-2.5 pl-2 "
+                    src="https://i.ibb.co.com/yBdPp8yT/play.png"
+                    alt=""
+                  />
+                </a>
               </div>
               <div
                 style={{ fontFamily: 'Montserrat, sans-serif' }}
@@ -86,7 +95,7 @@ const Home = () => {
           </div>
           <section className="mt-[700px]">
             <div className=" border-red-900">
-              <Marquee className="p-8 gap-x-4 " pauseOnHover={true} speed={100}>
+              <Marquee className="p-8 gap-x-4 " speed={100}>
                 <p className="flex items-center justify-center">
                   <img
                     className="mr-5 ml-8 w-14 h-14"
