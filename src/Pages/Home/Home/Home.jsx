@@ -12,7 +12,7 @@ const Home = () => {
         className="w-full lg:w-[1920px] h-full lg:h-[999px] text-white"
         style={homebackground}
       >
-        <div className="hero w-fit lg:w-[1920px] min-h-screen">
+        <div className="hero max-w-[1840px] mx-auto min-h-screen">
           <div className="hero-content  flex-col lg:flex-row">
             <img
               src="https://img.daisyui.com/images/stock/photo-1635805737707-575885ab0820.webp"
