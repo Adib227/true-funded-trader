@@ -9,23 +9,24 @@ const Home = () => {
   return (
     <>
       <div
-        className="w-full lg:max-w-[1920px] mx-auto h-full lg:h-[999px] text-white"
+        className="w-full lg:max-w-[1920px] mx-auto h-full lg:h-[1100px] text-white"
         style={homebackground}
       >
-        <div className="hero max-w-[1840px] mx-auto min-h-screen">
+        <div className="hero flex lg:grid w-full lg:max-w-[1840px] mx-auto min-h-screen">
           <div className="hero-content max-w-[1840px] mx-auto  flex-col lg:flex-row justify-between">
             <div>
               {' '}
               <img
-                className="w-[690px] h-[490px]"
+                className="w-72 lg:w-[690px] h-56 lg:h-[490px]"
                 src="https://i.ibb.co.com/kgptLyhv/image.png"
               />
             </div>
             <div>
+              {/* The 5 icons on banner start */}
               <p className="flex items-center gap-4.5 pb-4">
                 <a
                   href=""
-                  className="w-8 lg:w-12 h-8 lg:h-12 mr-1 lg:mr-2 border rounded-full justify-center align-middle justify-items-center hover:border-2  hover:border-[#0DFFF0]  "
+                  className="w-8 lg:w-12 h-8 lg:h-12 mr-1 lg:mr-2 border rounded-full justify-center align-middle justify-items-center shadow-md shadow-cyan-300  hover:border-2  hover:border-[#0DFFF0]  "
                 >
                   <img
                     className=" pt-2.5  "
@@ -35,7 +36,7 @@ const Home = () => {
                 </a>
                 <a
                   href=""
-                  className="w-8 lg:w-12 h-8 lg:h-12 mr-1 lg:mr-2 border rounded-full justify-center align-middle justify-items-center hover:border-2 hover:border-[#0DFFF0] "
+                  className="w-8 lg:w-12 h-8 lg:h-12 mr-1 lg:mr-2 border rounded-full justify-center align-middle justify-items-center shadow-md shadow-cyan-300  hover:border-2 hover:border-[#0DFFF0] "
                 >
                   <img
                     className=" pt-2  "
@@ -45,7 +46,7 @@ const Home = () => {
                 </a>
                 <a
                   href=""
-                  className="w-8 lg:w-12 h-8 lg:h-12 mr-1 lg:mr-2 border rounded-full justify-center align-middle justify-items-center hover:border-2 hover:border-[#0DFFF0] "
+                  className="w-8 lg:w-12 h-8 lg:h-12 mr-1 lg:mr-2 border rounded-full justify-center align-middle justify-items-center shadow-md shadow-cyan-300  hover:border-2 hover:border-[#0DFFF0] "
                 >
                   <img
                     className=" pt-2.5 "
@@ -55,7 +56,7 @@ const Home = () => {
                 </a>
                 <a
                   href=""
-                  className="w-8 lg:w-12 h-8 lg:h-12 mr-1 lg:mr-2 border rounded-full justify-center align-middle justify-items-center hover:border-2 hover:border-[#0DFFF0] "
+                  className="w-8 lg:w-12 h-8 lg:h-12 mr-1 lg:mr-2 border rounded-full justify-center align-middle justify-items-center shadow-md shadow-cyan-300  hover:border-2 hover:border-[#0DFFF0] "
                 >
                   <img
                     className=" pt-2"
@@ -65,7 +66,7 @@ const Home = () => {
                 </a>
                 <a
                   href=""
-                  className="w-8 lg:w-12 h-8 lg:h-12 mr-1 lg:mr-2 border rounded-full justify-center align-middle justify-items-center hover:border-2 hover:border-[#0DFFF0] "
+                  className="w-8 lg:w-12 h-8 lg:h-12 mr-1 lg:mr-2 border rounded-full justify-center align-middle justify-items-center shadow-md shadow-cyan-300  hover:border-2 hover:border-[#0DFFF0] "
                 >
                   <img
                     className=" w-10 h-10 pt-1  "
@@ -74,12 +75,15 @@ const Home = () => {
                   />
                 </a>
               </p>
+              {/* The 5 icons on banner end */}
               <h1
                 style={{ fontFamily: 'Montserrat, sans-serif' }}
                 // className="text-5xl font-bold"
                 className="text-3xl lg:text-7xl font-semibold lg:font-extrabold  "
               >
-                <span className="shadow-2xl">Modern Prop Trading Firm </span>{' '}
+                <span className="shadow-2xl bg-gradient-to-r from-[#FF2E00] via-[#FFF500] to-[#1BF1FF]  bg-clip-text text-transparent">
+                  Modern Prop Trading Firm{' '}
+                </span>{' '}
                 <br />
                 <span>With </span>
                 <span>Faster Payouts </span>
@@ -100,7 +104,7 @@ const Home = () => {
                 <a
                   href=""
                   style={{ fontFamily: 'Montserrat, sans-serif' }}
-                  className="relative py-4 px-8 bg-gradient-to-r from-[#FF5C00] via-[#0DFFF0] to-[#FA0DFF] animate-[gradientMove_6s_infinite_alternate_linear] bg-[length:200%_200%] rounded-4xl font-bold  hover:bg-blue-950 hover:bg-none border-0 shadow-xl hover:border hover:border-[#0DFFF0]   transition-all  duration-700 text-[15px]"
+                  className="relative py-4 px-8 bg-gradient-to-r from-[#FF5C00] via-[#0DFFF0] to-[#FA0DFF] animate-[gradientMove_8s_infinite_alternate_linear] bg-[length:200%_200%] rounded-4xl font-bold  hover:bg-blue-950 hover:bg-none border-0 shadow-xl   hover:border-2 hover:border-[#0DFFF0]   transition-all  duration-75 text-[15px]"
                 >
                   View Challenges
                 </a>
@@ -109,7 +113,7 @@ const Home = () => {
                 </button> */}
                 <a
                   href=""
-                  className="w-8 lg:w-12 h-8 lg:h-12 mr-1 lg:mr-2 border rounded-full justify-center align-middle justify-items-center hover:border-2 hover:border-[#0DFFF0] "
+                  className="w-8 lg:w-12 h-8 lg:h-12 mr-1 lg:mr-2 border rounded-full justify-center align-middle justify-items-center shadow-md shadow-cyan-300 hover:border-2 hover:border-[#0DFFF0] "
                 >
                   <img
                     className=" pt-2.5 pl-2 "
@@ -148,8 +152,10 @@ const Home = () => {
               </div>
             </div>
           </div>
-          <section className="mt-[700px]">
+          <section className=" lg:mt-[800px]">
             <div className=" border-red-900">
+              {/* Home section marquee starts here */}
+
               <Marquee className="p-8 gap-x-4 " speed={100}>
                 <p className="flex items-center justify-center">
                   <img
@@ -157,7 +163,7 @@ const Home = () => {
                     src="https://s3-alpha-sig.figma.com/img/f978/08cb/b01d3cb9bc6e9976fa4adf045d8826e7?Expires=1740960000&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=DJK7Q5nZZqYClhY-i1RanoHDiKjqv54GBwLBsY2jfjMveVgbBpqxdEMlLDxjMZbDKLXwZlDfMpaPEsT73RC-NyWK1ikgRf8U~8wagMpsBtnI~~Jy6yS~drA-mPl-b-hsAI90EEyfFj~ZOl7oBBrF5Tkr1lD5-ZU-jw-gvUHFroU50gg1oS8dLaM30YW~1JNWUltPIwgWLtTjdPZLJHWY~Bb0g6LAH2RHJh7Kk8f1aqzPO1q9e~K-CkeTbEv9lrZUdzKcokD86gf-EqOKNWudzlQdxofsZ1Wh-VSj2xzCLDw67E6tMVS-vxph~ks6OFo8YfLITZNWbm1jOOlwtBn-Eg__"
                     alt=""
                   />
-                  <span className=" font-semibold text-[16px]">
+                  <span className=" font-semibold text-[16px] bg-gradient-to-r from-[#FF2E00] via-[#FFF500] to-[#1BF1FF]  bg-clip-text text-transparent">
                     Use Code: June 24 For 20% Off on All Challenge{' '}
                   </span>
                 </p>
@@ -167,7 +173,7 @@ const Home = () => {
                     src="https://s3-alpha-sig.figma.com/img/f978/08cb/b01d3cb9bc6e9976fa4adf045d8826e7?Expires=1740960000&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=DJK7Q5nZZqYClhY-i1RanoHDiKjqv54GBwLBsY2jfjMveVgbBpqxdEMlLDxjMZbDKLXwZlDfMpaPEsT73RC-NyWK1ikgRf8U~8wagMpsBtnI~~Jy6yS~drA-mPl-b-hsAI90EEyfFj~ZOl7oBBrF5Tkr1lD5-ZU-jw-gvUHFroU50gg1oS8dLaM30YW~1JNWUltPIwgWLtTjdPZLJHWY~Bb0g6LAH2RHJh7Kk8f1aqzPO1q9e~K-CkeTbEv9lrZUdzKcokD86gf-EqOKNWudzlQdxofsZ1Wh-VSj2xzCLDw67E6tMVS-vxph~ks6OFo8YfLITZNWbm1jOOlwtBn-Eg__"
                     alt=""
                   />
-                  <span className="font-semibold text-[16px]">
+                  <span className="font-semibold text-[16px] bg-gradient-to-r from-[#FF2E00] via-[#FFF500] to-[#1BF1FF]  bg-clip-text text-transparent">
                     Use Code: June 24 For 20% Off on All Challenge{' '}
                   </span>
                 </p>
@@ -177,7 +183,7 @@ const Home = () => {
                     src="https://s3-alpha-sig.figma.com/img/f978/08cb/b01d3cb9bc6e9976fa4adf045d8826e7?Expires=1740960000&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=DJK7Q5nZZqYClhY-i1RanoHDiKjqv54GBwLBsY2jfjMveVgbBpqxdEMlLDxjMZbDKLXwZlDfMpaPEsT73RC-NyWK1ikgRf8U~8wagMpsBtnI~~Jy6yS~drA-mPl-b-hsAI90EEyfFj~ZOl7oBBrF5Tkr1lD5-ZU-jw-gvUHFroU50gg1oS8dLaM30YW~1JNWUltPIwgWLtTjdPZLJHWY~Bb0g6LAH2RHJh7Kk8f1aqzPO1q9e~K-CkeTbEv9lrZUdzKcokD86gf-EqOKNWudzlQdxofsZ1Wh-VSj2xzCLDw67E6tMVS-vxph~ks6OFo8YfLITZNWbm1jOOlwtBn-Eg__"
                     alt=""
                   />
-                  <span className=" font-semibold text-[16px]">
+                  <span className=" font-semibold text-[16px] bg-gradient-to-r from-[#FF2E00] via-[#FFF500] to-[#1BF1FF]  bg-clip-text text-transparent">
                     Use Code: June 24 For 20% Off on All Challenge{' '}
                   </span>
                 </p>
@@ -187,11 +193,13 @@ const Home = () => {
                     src="https://s3-alpha-sig.figma.com/img/f978/08cb/b01d3cb9bc6e9976fa4adf045d8826e7?Expires=1740960000&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=DJK7Q5nZZqYClhY-i1RanoHDiKjqv54GBwLBsY2jfjMveVgbBpqxdEMlLDxjMZbDKLXwZlDfMpaPEsT73RC-NyWK1ikgRf8U~8wagMpsBtnI~~Jy6yS~drA-mPl-b-hsAI90EEyfFj~ZOl7oBBrF5Tkr1lD5-ZU-jw-gvUHFroU50gg1oS8dLaM30YW~1JNWUltPIwgWLtTjdPZLJHWY~Bb0g6LAH2RHJh7Kk8f1aqzPO1q9e~K-CkeTbEv9lrZUdzKcokD86gf-EqOKNWudzlQdxofsZ1Wh-VSj2xzCLDw67E6tMVS-vxph~ks6OFo8YfLITZNWbm1jOOlwtBn-Eg__"
                     alt=""
                   />
-                  <span className=" font-semibold text-[16px]">
+                  <span className=" font-semibold text-[16px] bg-gradient-to-r from-[#FF2E00] via-[#FFF500] to-[#1BF1FF]  bg-clip-text text-transparent">
                     Use Code: June 24 For 20% Off on All Challenge{' '}
                   </span>
                 </p>
               </Marquee>
+
+              {/* Home section marquee ends here */}
             </div>
           </section>
         </div>

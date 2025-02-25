@@ -58,7 +58,7 @@ const Navbar = () => {
               </li>
             </ul>
           </div>
-          <div className="block text-center">
+          <div className="block text-center pl-0 lg:pl-24">
             <div>
               <img
                 className="w-[84px] h-[50px]"
@@ -107,30 +107,34 @@ const Navbar = () => {
             </li>
           </ul>
         </div>
-        <div className="navbar-end">
-          <a
+        <div className="navbar-end pr-20">
+          {/* <a
             href=""
             className="relative inline-block p-[2px] rounded-lg bg-gradient-to-r from-purple-500 via-pink-500 to-yellow-500 "
           >
             <span className="block px-6 py-2 text-white font-bold rounded-lg bg-gradient-to-r from-[#FF521C] via-[#FFB21E] to-[#FBFF2B] hover:from-black hover:via-green-300 hover:to-black transition-all duration-1000 animate-[gradientMove_5s_infinite_alternate_ease-in-out] bg-[length:1000%_1000%] ">
               Gradient Border Button
             </span>
-          </a>
+          </a> */}
 
           <a
             href=""
             type="button"
             style={{ fontFamily: 'Inter, sans-serif' }}
-            className="flex pr-2 bg-amber-400 rounded-3xl py-2 px-4 "
+            className="flex mr-0 lg:mr-8  rounded-3xl py-2 px-4 text-white gap-x-2 "
           >
             {' '}
-            <img src="https://i.ibb.co.com/MkrrZ4mN/user.png" alt="" />
+            <img
+              className=""
+              src="https://i.ibb.co.com/MkrrZ4mN/user.png"
+              alt=""
+            />
             Dashboard
           </a>
           <a
             href=""
             style={{ fontFamily: 'Montserrat, sans-serif' }}
-            className="font-bold rounded-2xl block px-7 py-2 text-white  bg-gradient-to-r from-[#FF521C] via-[#FFB21E] to-[#FBFF2B] hover:bg-green-300"
+            className="font-semibold rounded-2xl flex lg:block px-4 lg:px-7 pt-1 lg:pt-2.5  text-white  bg-gradient-to-r from-[#FF521C] via-[#FFB21E] to-[#FBFF2B] hover:bg-blue-950 hover:bg-none border-0 shadow-md   hover:border-2 hover:border-[#0DFFF0]   transition-all  duration-75      shadow-cyan-300 h-8 lg:h-11  lg:w-48 text-center "
           >
             <span>Get Started</span> <span>></span>
           </a>
