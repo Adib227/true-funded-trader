@@ -6,6 +6,7 @@ import Testimonial from '../Pages/Home/Testimonial/Testimonial';
 import Tradingpartners from '../Pages/Home/Tradingpartners/Tradingpartners';
 import Threecard from '../Pages/Home/Threecard/Threecard';
 import FundedTrader from '../Pages/FundedTrader/FundedTrader';
+import Payouts from '../Pages/Payouts/Payouts';
 
 const Main = () => {
   return (
@@ -15,6 +16,7 @@ const Main = () => {
       <Threecard></Threecard>
       <FundedTrader></FundedTrader>
       <Tradingpartners></Tradingpartners>
+      <Payouts></Payouts>
       <Testimonial></Testimonial>
       <Connectpage></Connectpage>
       <Footer></Footer>
