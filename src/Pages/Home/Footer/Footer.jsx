@@ -1,9 +1,9 @@
 const Footer = () => {
   return (
-    <div>
+    <div className="w-full lg:max-w-[1920px] mx-auto ">
       <footer
         style={{ fontFamily: 'Montserrat, sans-serif' }}
-        className="w-full lg:w-[1920px] footer sm:footer-horizontal bg-[#05133B] text-base-content p-12 justify-between text-white"
+        className=" footer sm:footer-horizontal bg-[#05133B]  p-12 justify-between text-white"
       >
         <aside className="pl-2 lg:pl-28">
           <img
@@ -18,14 +18,14 @@ const Footer = () => {
             <span> Join Our</span>{' '}
             <span className="text-[#0A7CFF]">Community</span>
           </p>
-          <p>
+          <p className="">
             <button className="w-8 lg:w-10 h-8 lg:h-10 mr-1 lg:mr-2 border rounded-full justify-center align-middle justify-items-center">
               <img
                 src="https://i.ibb.co.com/KjT1fSNy/facebook-176-svgrepo-com-1.png"
                 alt=""
               />
             </button>
-            <button className="w-8 lg:w-10 h-8 lg:h-10 mr-1 lg:mr-2  border rounded-full justify-center align-middle justify-items-center">
+            <button className="w-8 lg:w-10 h-8 lg:h-10 mr-1 lg:mr-2  border rounded-full justify-center align-middle justify-items-center hover:border-2 hover:border-[#0DFFF0]">
               <img
                 src="https://i.ibb.co.com/hxhbBfBb/youtube-svgrepo-com-1.png"
                 alt=""
@@ -103,7 +103,7 @@ const Footer = () => {
       </footer>
       <footer
         style={{ fontFamily: 'Consolas, sans-serif' }}
-        className="footer text-white sm:w-fit md:w-fit lg:w-[1920px] sm:footer-horizontal footer-center bg-[#05133B] text-base-content p-4 border-t"
+        className=" footer text-white sm:w-fit md:w-fit lg:w-[1903px] sm:footer-horizontal footer-center bg-[#05133B]  p-4 border-t"
       >
         <aside>
           <p>Copyright 2024 True Funded Trader. All rights reserved.</p>

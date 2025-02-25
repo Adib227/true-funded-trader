@@ -9,16 +9,71 @@ const Home = () => {
   return (
     <>
       <div
-        className="w-full lg:w-[1920px] h-full lg:h-[999px] text-white"
+        className="w-full lg:max-w-[1920px] mx-auto h-full lg:h-[999px] text-white"
         style={homebackground}
       >
         <div className="hero max-w-[1840px] mx-auto min-h-screen">
-          <div className="hero-content  flex-col lg:flex-row">
-            <img
-              src="https://img.daisyui.com/images/stock/photo-1635805737707-575885ab0820.webp"
-              class="max-w-sm rounded-lg shadow-2xl"
-            />
+          <div className="hero-content max-w-[1840px] mx-auto  flex-col lg:flex-row justify-between">
             <div>
+              {' '}
+              <img
+                className="w-[690px] h-[490px]"
+                src="https://i.ibb.co.com/kgptLyhv/image.png"
+              />
+            </div>
+            <div>
+              <p className="flex items-center gap-4.5 pb-4">
+                <a
+                  href=""
+                  className="w-8 lg:w-12 h-8 lg:h-12 mr-1 lg:mr-2 border rounded-full justify-center align-middle justify-items-center hover:border-2  hover:border-[#0DFFF0]  "
+                >
+                  <img
+                    className=" pt-2.5  "
+                    src="https://i.ibb.co.com/KjT1fSNy/facebook-176-svgrepo-com-1.png"
+                    alt=""
+                  />
+                </a>
+                <a
+                  href=""
+                  className="w-8 lg:w-12 h-8 lg:h-12 mr-1 lg:mr-2 border rounded-full justify-center align-middle justify-items-center hover:border-2 hover:border-[#0DFFF0] "
+                >
+                  <img
+                    className=" pt-2  "
+                    src="https://i.ibb.co.com/Xxwrwdqm/instagram-svgrepo-com-1.png"
+                    alt=""
+                  />
+                </a>
+                <a
+                  href=""
+                  className="w-8 lg:w-12 h-8 lg:h-12 mr-1 lg:mr-2 border rounded-full justify-center align-middle justify-items-center hover:border-2 hover:border-[#0DFFF0] "
+                >
+                  <img
+                    className=" pt-2.5 "
+                    src="https://i.ibb.co.com/hxhbBfBb/youtube-svgrepo-com-1.png"
+                    alt=""
+                  />
+                </a>
+                <a
+                  href=""
+                  className="w-8 lg:w-12 h-8 lg:h-12 mr-1 lg:mr-2 border rounded-full justify-center align-middle justify-items-center hover:border-2 hover:border-[#0DFFF0] "
+                >
+                  <img
+                    className=" pt-2"
+                    src="https://i.ibb.co.com/3YcjKnc0/8546766-discord-icon-1.png"
+                    alt=""
+                  />
+                </a>
+                <a
+                  href=""
+                  className="w-8 lg:w-12 h-8 lg:h-12 mr-1 lg:mr-2 border rounded-full justify-center align-middle justify-items-center hover:border-2 hover:border-[#0DFFF0] "
+                >
+                  <img
+                    className=" w-10 h-10 pt-1  "
+                    src="https://i.ibb.co.com/4RhCyBdW/twitter-1.png"
+                    alt=""
+                  />
+                </a>
+              </p>
               <h1
                 style={{ fontFamily: 'Montserrat, sans-serif' }}
                 // className="text-5xl font-bold"
