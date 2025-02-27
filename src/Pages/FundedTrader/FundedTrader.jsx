@@ -17,11 +17,11 @@ const FundedTrader = () => {
           />
         </div>
 
-        <div className="absolute top-10 left-1/6 w-80 h-80 bg-blue-400 opacity-30 rounded-full blur-3xl"></div>
-        <div className="absolute top-20 right-20 w-96 h-96 bg-pink-300 opacity-30 rounded-full blur-3xl"></div>
+        <div className="absolute top-10 left-1/6 w-80 h-80 bg-pink-300 opacity-30 rounded-full blur-3xl"></div>
+        <div className="absolute top-20 right-20 w-96 h-96 bg-blue-300 opacity-30 rounded-full blur-3xl"></div>
 
         {/* Left Side Content */}
-        <div className="relative z-10  space-y-10 pt-5 lg:pt-40 w-full max-w-none">
+        <div className="relative z-10  space-y-10 pt-5 lg:pt-48 w-full max-w-none">
           <h2 className="text-xl lg:text-5xl font-bold">About</h2>
           <h1 className="text-3xl lg:text-7xl font-bold mb-4 lg:mb-24">
             True Funded Trader
@@ -39,7 +39,7 @@ const FundedTrader = () => {
         </div>
 
         {/* Right Side Content */}
-        <div className="relative z-10 max-w-none  pt-20 text-gray-700 mt-8 lg:mt-0 w-full text-[22px] font-normal">
+        <div className="relative z-10 max-w-none  pt-24 text-gray-700 mt-8 lg:mt-0 w-full text-[22px] font-normal">
           <p>
             We're a team of elite financial professionals whose unwavering focus
             is empowering traders with the tools and resources to achieve
