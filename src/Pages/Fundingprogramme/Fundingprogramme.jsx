@@ -2,7 +2,7 @@ const Fundingprogramme = () => {
   return (
     <div
       style={{ fontFamily: 'Montserrat, sans-serif' }}
-      className="bg-[#05133B] text-white flex flex-row lg:flex-col h-screen lg:h-[880px]"
+      className="bg-[#05133B] text-white   lg:flex-col h-fit lg:h-[880px]"
     >
       <div className="text-center pt-14 pb-20">
         <span className="text-5xl font-extrabold bg-gradient-to-r from-[#FF2E00] to-[#FFF500]   bg-clip-text text-transparent">

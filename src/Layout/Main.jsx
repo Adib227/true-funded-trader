@@ -8,6 +8,7 @@ import Threecard from '../Pages/Home/Threecard/Threecard';
 import FundedTrader from '../Pages/FundedTrader/FundedTrader';
 import Payouts from '../Pages/Payouts/Payouts';
 import Fundingprogramme from '../Pages/Fundingprogramme/Fundingprogramme';
+import Affiliate from '../Pages/Affiliate/Affiliate';
 
 const Main = () => {
   return (
@@ -18,6 +19,7 @@ const Main = () => {
       <FundedTrader></FundedTrader>
       <Fundingprogramme></Fundingprogramme>
       <Tradingpartners></Tradingpartners>
+      <Affiliate></Affiliate>
       <Payouts></Payouts>
       <Testimonial></Testimonial>
       <Connectpage></Connectpage>
