@@ -55,3 +55,14 @@ body {
     background-position: 0% 50%;
   }
 }
+
+.bg-dotted {
+  background: repeating-linear-gradient(
+    90deg,
+    white,
+    white 2px,
+    transparent 2px,
+    transparent 8px
+  );
+  opacity: 0.3;
+}
