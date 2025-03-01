@@ -9,7 +9,7 @@ const Home = () => {
   return (
     <>
       <div
-        className="w-full lg:max-w-[1920px] mx-auto h-full lg:h-[1100px] text-white"
+        className="w-full lg:max-w-[1920px] mx-auto h-full lg:h-[1050px] text-white"
         style={homebackground}
       >
         <div className="hero flex lg:grid w-full lg:max-w-[1840px] mx-auto min-h-screen">

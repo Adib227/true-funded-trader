@@ -10,12 +10,14 @@ import Payouts from '../Pages/Payouts/Payouts';
 import Fundingprogramme from '../Pages/Fundingprogramme/Fundingprogramme';
 import Affiliate from '../Pages/Affiliate/Affiliate';
 import TradingDashboard from '../Pages/TradingDashboard/TradingDashboard';
+import Featuresection from '../Pages/Featuresection/Featuresection';
 
 const Main = () => {
   return (
     <div className="max-w-[1920px] mx-auto">
       <Navbar></Navbar>
       <Outlet></Outlet>
+      <Featuresection></Featuresection>
       <Threecard></Threecard>
       <FundedTrader></FundedTrader>
       <TradingDashboard></TradingDashboard>

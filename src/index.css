@@ -59,10 +59,19 @@ body {
 .bg-dotted {
   background: repeating-linear-gradient(
     90deg,
-    white,
-    white 2px,
+    rgb(45, 45, 123),
+    rgb(45, 45, 119) 2px,
     transparent 2px,
     transparent 8px
   );
-  opacity: 0.3;
+  opacity: 0.9;
+}
+
+.vertical-hr {
+  width: 1px;
+  height: 200px;
+  background-color: #898989;
+  border: none;
+  margin: 0 auto;
+  display: block;
 }

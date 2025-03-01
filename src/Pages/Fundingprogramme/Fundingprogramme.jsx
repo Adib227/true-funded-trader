@@ -316,7 +316,7 @@ const Fundingprogramme = () => {
                     alt=""
                   />
                 </span>{' '}
-                <span className="relative  w-16 h-16  shadow-cyan-700 shadow-md  rounded-full flex justify-center items-center ">
+                <span className="relative  w-16 h-16  shadow-cyan-700 shadow-md  rounded-full  flex justify-center items-center ">
                   <img
                     src="https://i.ibb.co.com/60jH8PnQ/Icon-for-why-choose-9.png"
                     alt=""

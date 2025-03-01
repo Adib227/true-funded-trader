@@ -21,12 +21,54 @@ const TradingDashboard = () => {
         </p>
         <div className="flex flex-col lg:flex-row justify-evenly w-full lg:w-10/12 ">
           <div>
-            {/* <div className="absolute top-[-20px] left-[-20px] w-[150px] h-[2px] bg-dotted"></div> */}
-            {/* <div className="absolute top-[-20px] left-[-20px] w-[2px] h-[150px] bg-dotted"></div> */}
+            <div className="absolute lg:pt-60 lg:pl-96">
+              <img
+                className="pl-[470px]"
+                src="https://i.ibb.co.com/qLkGyxW3/Dot.png"
+                alt=""
+              />
+            </div>
+            <div className="absolute lg:pt-56 pl-28">
+              <img src="https://i.ibb.co.com/GQS4YWX5/Dot-3.png" alt="" />
+            </div>
+            <div className="absolute lg:pl-96 lg:pt-96">
+              <img
+                className="lg:pl-96 lg:pt-40"
+                src="https://i.ibb.co.com/kgFFJw8p/Dot-1.png"
+                alt=""
+              />
+            </div>
 
             {/* Dotted Line - Bottom Right */}
-            {/* <div className="absolute bottom-[-20px] right-[-20px] w-[150px] h-[2px] bg-dotted"></div> */}
-            {/* <div className="absolute bottom-[-20px] right-[-20px] w-[2px] h-[150px] bg-dotted"></div> */}
+            <div className="absolute pt-56">
+              {' '}
+              <img src="https://i.ibb.co.com/dsSZWzc9/Dot-2.png" alt="" />
+            </div>
+            <div className="absolute pt-96">
+              {' '}
+              <img
+                className="pt-28"
+                src="https://i.ibb.co.com/dsSZWzc9/Dot-2.png"
+                alt=""
+              />
+            </div>
+            <div className="absolute pt-5 lg:pt-56 pl-5 lg:pl-96">
+              <img
+                className="pl-5 lg:pl-96"
+                src="https://i.ibb.co.com/kgFFJw8p/Dot.png"
+                alt=""
+              />
+            </div>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="255"
+              height="6"
+              viewBox="0 0 255 6"
+              fill="none"
+            >
+              {' '}
+              <circle cx="5" cy="5" r="1" fill="black" />
+            </svg>
             <img
               className="w-full h-full"
               src="https://i.ibb.co.com/CsPYkfjb/Clip-path-group-1.png"

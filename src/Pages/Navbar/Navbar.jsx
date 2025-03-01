@@ -61,7 +61,7 @@ const Navbar = () => {
           <div className="block text-center pl-0 lg:pl-24">
             <div>
               <img
-                className="w-[84px] h-[50px]"
+                className="w-[88px] h-[55px]"
                 src="https://i.ibb.co.com/kVcGBDDC/Vector.png"
                 alt=""
               />
@@ -69,7 +69,7 @@ const Navbar = () => {
             <div>
               <p
                 style={{ fontFamily: 'Audiowide, sans-serif' }}
-                className="text-[7.5px] text-white"
+                className="text-[8px] text-white"
               >
                 True Funded Trader
               </p>
@@ -134,7 +134,7 @@ const Navbar = () => {
           <a
             href=""
             style={{ fontFamily: 'Montserrat, sans-serif' }}
-            className="font-semibold rounded-2xl flex lg:block px-4 lg:px-7 pt-1 lg:pt-2.5  text-white  bg-gradient-to-r from-[#FF521C] via-[#FFB21E] to-[#FBFF2B] hover:bg-blue-950 hover:bg-none border-0 shadow-md   hover:border-2 hover:border-[#0DFFF0]   transition-all  duration-75      shadow-cyan-300 h-8 lg:h-11  lg:w-48 text-center "
+            className="font-semibold rounded-2xl flex lg:block px-4 lg:px-7 pt-1 lg:pt-2.5  text-white  bg-gradient-to-r from-[#FF521C] via-[#FFB21E] to-[#FBFF2B] hover:bg-blue-950 hover:bg-none border-0 shadow-md   hover:border-2 hover:border-[#0DFFF0]   transition-all  duration-75      hover:shadow-cyan-300 h-8 lg:h-11  lg:w-48 text-center "
           >
             <span>Get Started</span> <span>></span>
           </a>
