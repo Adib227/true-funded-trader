@@ -43,8 +43,34 @@ body {
     background-image: linear-gradient(to right, #ff9900, #33cc33, #0066ff);
   }
 }
+@keyframes gradientText {
+  0% {
+    background-position: 0% 50%;
+    background-image: linear-gradient(to right, #ff0000, #ff9900, #33cc33);
+  }
+  50% {
+    background-position: 100% 50%;
+    background-image: linear-gradient(to right, #0066ff, #9900cc, #ff0000);
+  }
+  100% {
+    background-position: 0% 50%;
+    background-image: linear-gradient(to right, #ff9900, #33cc33, #0066ff);
+  }
+}
 
 @keyframes gradientMove {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+@keyframes gradientText {
   0% {
     background-position: 0% 50%;
   }
@@ -68,10 +94,7 @@ body {
 }
 
 .vertical-hr {
-  width: 1px;
-  height: 200px;
   background-color: #898989;
   border: none;
   margin: 0 auto;
-  display: block;
 }

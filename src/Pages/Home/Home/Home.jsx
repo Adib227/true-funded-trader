@@ -81,7 +81,7 @@ const Home = () => {
                 // className="text-5xl font-bold"
                 className="text-3xl lg:text-7xl font-semibold lg:font-extrabold  "
               >
-                <span className="shadow-2xl bg-gradient-to-r from-[#FF2E00] via-[#FFF500] to-[#1BF1FF]  bg-clip-text text-transparent">
+                <span className=" bg-gradient-to-r from-[#FF2E00] via-[#FFF500] to-[#1BF1FF] animate-[gradientText_9s_infinite_alternate_linear] bg-[length:200%_200%] duration-100 bg-clip-text text-transparent">
                   Modern Prop Trading Firm{' '}
                 </span>{' '}
                 <br />
@@ -108,9 +108,7 @@ const Home = () => {
                 >
                   View Challenges
                 </a>
-                {/* <button className="btn w-14 h-14 rounded-full justify-center align-middle">
-                  <img src="https://i.ibb.co.com/7dr4SQXd/play.png" alt="" />
-                </button> */}
+
                 <a
                   href=""
                   className="w-8 lg:w-12 h-8 lg:h-12 mr-1 lg:mr-2 border rounded-full justify-center align-middle justify-items-center shadow-md shadow-cyan-300 hover:border-2 hover:border-[#0DFFF0] "
@@ -160,40 +158,40 @@ const Home = () => {
                 <p className="flex items-center justify-center">
                   <img
                     className="mr-5 ml-8 w-14 h-14"
-                    src="https://s3-alpha-sig.figma.com/img/f978/08cb/b01d3cb9bc6e9976fa4adf045d8826e7?Expires=1740960000&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=DJK7Q5nZZqYClhY-i1RanoHDiKjqv54GBwLBsY2jfjMveVgbBpqxdEMlLDxjMZbDKLXwZlDfMpaPEsT73RC-NyWK1ikgRf8U~8wagMpsBtnI~~Jy6yS~drA-mPl-b-hsAI90EEyfFj~ZOl7oBBrF5Tkr1lD5-ZU-jw-gvUHFroU50gg1oS8dLaM30YW~1JNWUltPIwgWLtTjdPZLJHWY~Bb0g6LAH2RHJh7Kk8f1aqzPO1q9e~K-CkeTbEv9lrZUdzKcokD86gf-EqOKNWudzlQdxofsZ1Wh-VSj2xzCLDw67E6tMVS-vxph~ks6OFo8YfLITZNWbm1jOOlwtBn-Eg__"
+                    src="https://s3-alpha-sig.figma.com/img/f978/08cb/b01d3cb9bc6e9976fa4adf045d8826e7?Expires=1742169600&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=NDQjt53dFjiugwfvRETLfTBsVVcQMfwqt2d9rSLvvO2lYux3mL9Wvui2YBjOoaWUVrIEd3PW5kCNM8Ep1vDFW6hCbR5ajaYB-6GVtvZSWqgAPeFmkL3vwWByC46b4-uqIu9cJ7gw6LdN1xrRAU1U2eH~0bPj-19momiE-UV1XxfoiaQTzvRdc4fUkRwym8evMU5SLAZRTn11zQRT7SUCS4YtKmFCboavDzaDE40lpfN94XPuIac6J460nfen~SZJncfl6avhqcDQFVp6vQV6lrj9KpoSXJagBPWO71PK9MiZ-vkpK0BmKpOplhFufoDKqsPpA2hJG9BbeM6hEu3Gjw__"
                     alt=""
                   />
-                  <span className=" font-semibold text-[16px] bg-gradient-to-r from-[#FF2E00] via-[#FFF500] to-[#1BF1FF]  bg-clip-text text-transparent">
+                  <span className=" font-semibold text-lg bg-gradient-to-r from-[#FF2E00] via-[#FFF500] to-[#1BF1FF]  bg-clip-text text-transparent">
                     Use Code: June 24 For 20% Off on All Challenge{' '}
                   </span>
                 </p>
                 <p className="flex items-center justify-center">
                   <img
                     className="mr-5 ml-8 w-14 h-14"
-                    src="https://s3-alpha-sig.figma.com/img/f978/08cb/b01d3cb9bc6e9976fa4adf045d8826e7?Expires=1740960000&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=DJK7Q5nZZqYClhY-i1RanoHDiKjqv54GBwLBsY2jfjMveVgbBpqxdEMlLDxjMZbDKLXwZlDfMpaPEsT73RC-NyWK1ikgRf8U~8wagMpsBtnI~~Jy6yS~drA-mPl-b-hsAI90EEyfFj~ZOl7oBBrF5Tkr1lD5-ZU-jw-gvUHFroU50gg1oS8dLaM30YW~1JNWUltPIwgWLtTjdPZLJHWY~Bb0g6LAH2RHJh7Kk8f1aqzPO1q9e~K-CkeTbEv9lrZUdzKcokD86gf-EqOKNWudzlQdxofsZ1Wh-VSj2xzCLDw67E6tMVS-vxph~ks6OFo8YfLITZNWbm1jOOlwtBn-Eg__"
+                    src="https://s3-alpha-sig.figma.com/img/f978/08cb/b01d3cb9bc6e9976fa4adf045d8826e7?Expires=1742169600&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=NDQjt53dFjiugwfvRETLfTBsVVcQMfwqt2d9rSLvvO2lYux3mL9Wvui2YBjOoaWUVrIEd3PW5kCNM8Ep1vDFW6hCbR5ajaYB-6GVtvZSWqgAPeFmkL3vwWByC46b4-uqIu9cJ7gw6LdN1xrRAU1U2eH~0bPj-19momiE-UV1XxfoiaQTzvRdc4fUkRwym8evMU5SLAZRTn11zQRT7SUCS4YtKmFCboavDzaDE40lpfN94XPuIac6J460nfen~SZJncfl6avhqcDQFVp6vQV6lrj9KpoSXJagBPWO71PK9MiZ-vkpK0BmKpOplhFufoDKqsPpA2hJG9BbeM6hEu3Gjw__"
                     alt=""
                   />
-                  <span className="font-semibold text-[16px] bg-gradient-to-r from-[#FF2E00] via-[#FFF500] to-[#1BF1FF]  bg-clip-text text-transparent">
+                  <span className="font-semibold text-lg bg-gradient-to-r from-[#FF2E00] via-[#FFF500] to-[#1BF1FF]  bg-clip-text text-transparent">
                     Use Code: June 24 For 20% Off on All Challenge{' '}
                   </span>
                 </p>
                 <p className="flex items-center justify-center">
                   <img
                     className="mr-5 ml-8 w-14 h-14"
-                    src="https://s3-alpha-sig.figma.com/img/f978/08cb/b01d3cb9bc6e9976fa4adf045d8826e7?Expires=1740960000&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=DJK7Q5nZZqYClhY-i1RanoHDiKjqv54GBwLBsY2jfjMveVgbBpqxdEMlLDxjMZbDKLXwZlDfMpaPEsT73RC-NyWK1ikgRf8U~8wagMpsBtnI~~Jy6yS~drA-mPl-b-hsAI90EEyfFj~ZOl7oBBrF5Tkr1lD5-ZU-jw-gvUHFroU50gg1oS8dLaM30YW~1JNWUltPIwgWLtTjdPZLJHWY~Bb0g6LAH2RHJh7Kk8f1aqzPO1q9e~K-CkeTbEv9lrZUdzKcokD86gf-EqOKNWudzlQdxofsZ1Wh-VSj2xzCLDw67E6tMVS-vxph~ks6OFo8YfLITZNWbm1jOOlwtBn-Eg__"
+                    src="https://s3-alpha-sig.figma.com/img/f978/08cb/b01d3cb9bc6e9976fa4adf045d8826e7?Expires=1742169600&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=NDQjt53dFjiugwfvRETLfTBsVVcQMfwqt2d9rSLvvO2lYux3mL9Wvui2YBjOoaWUVrIEd3PW5kCNM8Ep1vDFW6hCbR5ajaYB-6GVtvZSWqgAPeFmkL3vwWByC46b4-uqIu9cJ7gw6LdN1xrRAU1U2eH~0bPj-19momiE-UV1XxfoiaQTzvRdc4fUkRwym8evMU5SLAZRTn11zQRT7SUCS4YtKmFCboavDzaDE40lpfN94XPuIac6J460nfen~SZJncfl6avhqcDQFVp6vQV6lrj9KpoSXJagBPWO71PK9MiZ-vkpK0BmKpOplhFufoDKqsPpA2hJG9BbeM6hEu3Gjw__"
                     alt=""
                   />
-                  <span className=" font-semibold text-[16px] bg-gradient-to-r from-[#FF2E00] via-[#FFF500] to-[#1BF1FF]  bg-clip-text text-transparent">
+                  <span className=" font-semibold text-lg bg-gradient-to-r from-[#FF2E00] via-[#FFF500] to-[#1BF1FF]  bg-clip-text text-transparent">
                     Use Code: June 24 For 20% Off on All Challenge{' '}
                   </span>
                 </p>
                 <p className="flex items-center justify-center">
                   <img
                     className="mr-5 ml-8 w-14 h-14"
-                    src="https://s3-alpha-sig.figma.com/img/f978/08cb/b01d3cb9bc6e9976fa4adf045d8826e7?Expires=1740960000&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=DJK7Q5nZZqYClhY-i1RanoHDiKjqv54GBwLBsY2jfjMveVgbBpqxdEMlLDxjMZbDKLXwZlDfMpaPEsT73RC-NyWK1ikgRf8U~8wagMpsBtnI~~Jy6yS~drA-mPl-b-hsAI90EEyfFj~ZOl7oBBrF5Tkr1lD5-ZU-jw-gvUHFroU50gg1oS8dLaM30YW~1JNWUltPIwgWLtTjdPZLJHWY~Bb0g6LAH2RHJh7Kk8f1aqzPO1q9e~K-CkeTbEv9lrZUdzKcokD86gf-EqOKNWudzlQdxofsZ1Wh-VSj2xzCLDw67E6tMVS-vxph~ks6OFo8YfLITZNWbm1jOOlwtBn-Eg__"
+                    src="https://s3-alpha-sig.figma.com/img/f978/08cb/b01d3cb9bc6e9976fa4adf045d8826e7?Expires=1742169600&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=NDQjt53dFjiugwfvRETLfTBsVVcQMfwqt2d9rSLvvO2lYux3mL9Wvui2YBjOoaWUVrIEd3PW5kCNM8Ep1vDFW6hCbR5ajaYB-6GVtvZSWqgAPeFmkL3vwWByC46b4-uqIu9cJ7gw6LdN1xrRAU1U2eH~0bPj-19momiE-UV1XxfoiaQTzvRdc4fUkRwym8evMU5SLAZRTn11zQRT7SUCS4YtKmFCboavDzaDE40lpfN94XPuIac6J460nfen~SZJncfl6avhqcDQFVp6vQV6lrj9KpoSXJagBPWO71PK9MiZ-vkpK0BmKpOplhFufoDKqsPpA2hJG9BbeM6hEu3Gjw__"
                     alt=""
                   />
-                  <span className=" font-semibold text-[16px] bg-gradient-to-r from-[#FF2E00] via-[#FFF500] to-[#1BF1FF]  bg-clip-text text-transparent">
+                  <span className=" font-semibold text-lg bg-gradient-to-r from-[#FF2E00] via-[#FFF500] to-[#1BF1FF]  bg-clip-text text-transparent">
                     Use Code: June 24 For 20% Off on All Challenge{' '}
                   </span>
                 </p>

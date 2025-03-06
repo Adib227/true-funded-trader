@@ -8,7 +8,7 @@ const Affiliate = () => {
         {' '}
         <h1 className="pt-14">
           <span className="text-5xl font-bold">OUR </span>
-          <span className="text-7xl font-extrabold bg-gradient-to-r from-[#FF2E00] to-[#FFF500]   bg-clip-text text-transparent">
+          <span className="text-7xl font-extrabold bg-gradient-to-r from-[#FF2E00] via-[#FFF500] to-white   animate-[gradientText_9s_infinite_alternate_linear] bg-[length:200%_200%] duration-100 bg-clip-text text-transparent">
             {' '}
             AFFILIATE{' '}
           </span>

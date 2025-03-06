@@ -8,7 +8,7 @@ const TradingDashboard = () => {
         <div className="absolute left-6 lg:left-64 mt-10 lg:mt-[500px]  w-96 h-96 bg-blue-400 opacity-30 blur-[120px]  rounded-full"></div>
         <h1>
           <span className="text-7xl font-medium">Our Modern</span>
-          <span className="text-7xl font-extrabold bg-gradient-to-r from-[#FF2E00] to-[#FFF500]   bg-clip-text text-transparent ml-3">
+          <span className="text-7xl font-extrabold bg-gradient-to-r from-[#FF2E00] via-[#FFF500] to-[#FFFFFF]  animate-[gradientText_9s_infinite_alternate_linear] bg-[length:200%_200%] duration-100  bg-clip-text text-transparent ml-3">
             Trading Dashboard
           </span>
         </h1>
