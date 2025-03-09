@@ -78,7 +78,7 @@ const Home = () => {
               {/* The 5 icons on banner end */}
               <h1
                 style={{ fontFamily: 'Montserrat, sans-serif' }}
-                className="text-5xl lg:text-7xl font-semibold lg:font-extrabold  "
+                className="text-5xl lg:text-7xl font-bold lg:font-extrabold  "
               >
                 <span className=" bg-gradient-to-r from-[#FF2E00] via-[#FFF500] to-[#1BF1FF] animate-[gradientText_9s_infinite_alternate_linear] bg-[length:200%_200%] duration-100 bg-clip-text text-transparent">
                   Modern Prop Trading Firm{' '}
@@ -113,7 +113,7 @@ const Home = () => {
                   className="w-8 lg:w-12 h-8 lg:h-12 mr-1 lg:mr-2 border rounded-full justify-center align-middle justify-items-center shadow-md shadow-cyan-300 hover:border-2 hover:border-[#0DFFF0] "
                 >
                   <img
-                    className=" pt-2.5 pl-2 "
+                    className="pt-1 lg:pt-2.5  pl-2 "
                     src="https://i.ibb.co.com/yBdPp8yT/play.png"
                     alt=""
                   />

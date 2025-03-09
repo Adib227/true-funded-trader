@@ -14,6 +14,7 @@ import Featuresection from '../Pages/Featuresection/Featuresection';
 import Programsection from '../Pages/Programsection/Programsection';
 import TradingAssets from '../Pages/TradingAssets/TradingAssets';
 import Getfunded from '../Pages/Getfunded/Getfunded';
+import Questions from '../Pages/Questions/Questions';
 
 const Main = () => {
   return (
@@ -31,6 +32,7 @@ const Main = () => {
       <Tradingpartners></Tradingpartners>
       <Affiliate></Affiliate>
       <Payouts></Payouts>
+      <Questions></Questions>
       <Testimonial></Testimonial>
       <Connectpage></Connectpage>
       <Footer></Footer>
