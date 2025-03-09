@@ -17,7 +17,7 @@ const Home = () => {
             <div>
               {' '}
               <img
-                className="w-[400px] lg:w-[690px] h-80 lg:h-[490px] mt-28 lg:mt-0"
+                className="w-[400px] lg:w-[690px] h-80 lg:h-[490px]"
                 src="https://i.ibb.co.com/kgptLyhv/image.png"
               />
             </div>
