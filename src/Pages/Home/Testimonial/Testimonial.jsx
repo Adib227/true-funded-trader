@@ -55,11 +55,24 @@ const Testimonial = () => {
             We do our best to provide you the best experience ever
           </p>
         </div>
-        <div className="pt-8 max-w-[1680px] mx-auto">
+        <div className="pt-8 w-full lg:w-[1680px] mx-auto">
           {' '}
           <Swiper
-            slidesPerView={6}
             spaceBetween={45}
+            breakpoints={{
+              640: {
+                slidesPerView: 1,
+              },
+              768: {
+                slidesPerView: 3,
+              },
+              1024: {
+                slidesPerView: 3,
+              },
+              1280: {
+                slidesPerView: 6,
+              },
+            }}
             pagination={{
               clickable: true,
             }}

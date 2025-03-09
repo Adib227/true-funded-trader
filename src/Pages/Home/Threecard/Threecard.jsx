@@ -49,7 +49,7 @@ const Threecard = () => {
           </p>
         </div>
         <div className="w-[420px] h-[290px] bg-gradient-to-b from-[#FF6523] to-[#FFFFFF] rounded-2xl p-6 space-y-3 my-10">
-          <h1 className="text-[16px] font-bold">STEP 1</h1>
+          <h1 className="text-[16px] font-bold">STEP 3</h1>
           <img
             src="https://i.ibb.co.com/ZpXvChrt/Rectangle-1-removebg-preview.png"
             alt=""
