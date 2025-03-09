@@ -78,7 +78,6 @@ const Home = () => {
               {/* The 5 icons on banner end */}
               <h1
                 style={{ fontFamily: 'Montserrat, sans-serif' }}
-                // className="text-5xl font-bold"
                 className="text-3xl lg:text-7xl font-semibold lg:font-extrabold  "
               >
                 <span className=" bg-gradient-to-r from-[#FF2E00] via-[#FFF500] to-[#1BF1FF] animate-[gradientText_9s_infinite_alternate_linear] bg-[length:200%_200%] duration-100 bg-clip-text text-transparent">

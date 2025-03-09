@@ -35,7 +35,7 @@ const Getfunded = () => {
             aria-label="Tab 2"
             defaultChecked
           />
-          <div className="tab-content bg-base-100 border-base-300 p-6">
+          <div className="tab-content bg-black border-base-300 p-6">
             Tab content 2
           </div>
 
@@ -45,8 +45,9 @@ const Getfunded = () => {
             className="tab"
             aria-label="Tab 3"
           />
-          <div className="tab-content bg-base-100 border-base-300 p-6">
-            Tab content 3
+          <div className="tab-content bg-black border-base-300 p-6">
+            <div>Tab COntent 3</div>
+            <div>Tab Content 4</div>{' '}
           </div>
         </div>
       </div>
