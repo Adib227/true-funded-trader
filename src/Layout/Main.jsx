@@ -12,6 +12,8 @@ import Affiliate from '../Pages/Affiliate/Affiliate';
 import TradingDashboard from '../Pages/TradingDashboard/TradingDashboard';
 import Featuresection from '../Pages/Featuresection/Featuresection';
 import Programsection from '../Pages/Programsection/Programsection';
+import TradingAssets from '../Pages/TradingAssets/TradingAssets';
+import Getfunded from '../Pages/Getfunded/Getfunded';
 
 const Main = () => {
   return (
@@ -21,9 +23,11 @@ const Main = () => {
       <Featuresection></Featuresection>
       <Threecard></Threecard>
       <Programsection></Programsection>
+      <Getfunded></Getfunded>
       <FundedTrader></FundedTrader>
       <TradingDashboard></TradingDashboard>
       <Fundingprogramme></Fundingprogramme>
+      <TradingAssets></TradingAssets>
       <Tradingpartners></Tradingpartners>
       <Affiliate></Affiliate>
       <Payouts></Payouts>

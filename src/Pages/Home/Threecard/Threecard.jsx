@@ -20,7 +20,7 @@ const Threecard = () => {
       <div className="grid lg:flex w-full lg:w-[1600px] mx-auto justify-between ">
         <div
           className="w-[420px] h-[290px] bg-gradient-to-b from-[#FF6523] to-[#FFFFFF] rounded-2xl 
-         p-6 space-y-3  border-[10px_20px_10px_20px_rgba(0.9,0,0,0.3)] shadow-[0px_0px_10px_rgba(1.5,0,0,0.3)]"
+         p-6 space-y-3  border-[10px_20px_10px_20px_rgba(0.9,0,0,0.3)] shadow-[0px_0px_10px_rgba(1.5,0,0,0.3)] "
         >
           <h1 className="text-[16px] font-bold">STEP 1</h1>
           <img
