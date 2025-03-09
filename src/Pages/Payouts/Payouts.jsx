@@ -1,16 +1,16 @@
 const Payouts = () => {
   return (
-    <div className="bg-[url('https://i.ibb.co.com/KPBbPLH/c6c4d3778ed30d1bdbb7be94fd2b0119.jpg')] border-none bg-cover bg-center h-[650px] w-full">
+    <div className="bg-[url('https://i.ibb.co.com/KPBbPLH/c6c4d3778ed30d1bdbb7be94fd2b0119.jpg')] border-none bg-cover bg-center h-full lg:h-[650px] w-full ">
       <div
-        className="max-w-[1640px] mx-auto flex justify-between
+        className="max-w-[1640px] mx-auto grid lg:flex justify-between
       "
       >
-        <div className="w-2/3 flex  items-center ">
+        <div className="w-full lg:w-2/3 flex  items-center pl-4 pt-10 lg:pt-0">
           <div style={{ fontFamily: 'Montserrat, sans-serif' }} className="">
-            <h1 className="text-7xl font-bold bg-gradient-to-r from-[#1400FF] to-[#BD00FF]  bg-clip-text text-transparent">
+            <h1 className="text-6xl lg:text-7xl font-bold bg-gradient-to-r from-[#1400FF] to-[#BD00FF]  bg-clip-text text-transparent">
               Guaranteed payouts!
             </h1>
-            <h2 className="text-4xl font-bold pt-7">
+            <h2 className="text-3xl lg:text-4xl font-bold pt-7">
               Get Paid in 24 hours or We Pay <br /> you 20% Extra
             </h2>
             <p className="text-[15px] font-normal pt-10">
@@ -32,15 +32,15 @@ const Payouts = () => {
           <div className="absolute   w-80 h-80 bg-purple-500 rounded-full blur-3xl opacity-15"></div>
           <div className="absolute top-1/2 left-1/2 w-40 h-40 bg-blue-500 rounded-full blur-3xl opacity-20 transform -translate-x-1/2 -translate-y-1/2"></div>
         </div>
-        <div className="w-1/3">
-          <div className="relative w-full h-[650px]  flex items-center justify-center ">
+        <div className="w-full lg:w-1/3">
+          <div className="relative w-full lg:h-[650px]  flex items-center justify-center ">
             {/* Blurry Background Elements */}
             <div className="absolute top-20 left-10 w-48 h-48 bg-purple-500 rounded-full blur-3xl opacity-20"></div>
             <div className="absolute bottom-10 right-10 w-36 h-36 bg-pink-500 rounded-full blur-3xl opacity-25"></div>
             <div className="absolute top-1/2 left-1/2 w-40 h-40 bg-blue-500 rounded-full blur-3xl opacity-20 transform -translate-x-1/2 -translate-y-1/2"></div>
 
             {/* the round box 24 hours */}
-            <div className="relative z-10 flex items-center space-x-4">
+            <div className="relative z-10 flex items-center space-x-4 py-20">
               <div
                 style={{ fontFamily: 'Montserrat, sans-serif' }}
                 className="w-40 h-40   absolute  grid grid-cols-1 items-center justify-center rounded-full bg-white border-[12px] border-purple-500 shadow-xl "

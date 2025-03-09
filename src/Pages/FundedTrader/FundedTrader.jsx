@@ -22,24 +22,24 @@ const FundedTrader = () => {
 
         {/* Left Side Content */}
         <div className="relative z-10  space-y-10 pt-5 lg:pt-48 w-full max-w-none">
-          <h2 className="text-xl lg:text-5xl font-bold text-center lg:text-start">
+          <h2 className="text-4xl lg:text-5xl font-bold text-center lg:text-start">
             About
           </h2>
-          <h1 className="text-3xl lg:text-7xl font-bold mb-4 lg:mb-24 text-center lg:text-start">
+          <h1 className="text-6xl lg:text-7xl font-bold mb-4 lg:mb-24 text-center lg:text-start">
             True Funded Trader
           </h1>
           <a
             href=""
             onMouseEnter={() => setText('View Challenges')}
             onMouseLeave={() => setText('Get Funded Now')}
-            className="relative py-4 px-8   bg-gradient-to-r from-[#FF5C00] via-[#0DFFF0] to-[#FA0DFF] animate-[gradientMove_8s_infinite_alternate_linear] bg-[length:200%_200%] rounded-4xl font-bold  hover:bg-blue-950 hover:bg-none border-0 shadow-xl   hover:border-2 hover:border-[#0DFFF0]   transition-all  duration-75 text-[15px] text-white"
+            className="relative py-4 px-8   bg-gradient-to-r from-[#FF5C00] via-[#0DFFF0] to-[#FA0DFF] animate-[gradientMove_8s_infinite_alternate_linear] bg-[length:200%_200%] rounded-4xl font-bold  hover:bg-blue-950 hover:bg-none border-0 shadow-xl   hover:border-2 hover:border-[#0DFFF0]   transition-all  duration-75 text-[15px] text-white ml-36 lg:ml-0"
           >
             {text}
           </a>
         </div>
 
         {/* Right Side Content */}
-        <div className="relative  z-10 max-w-none  pt-24 text-gray-700 mt-8 lg:mt-0 w-[450px] mx-auto lg:w-full text-lg lg:text-[22px] font-normal">
+        <div className="relative  z-10 max-w-none pt-16 lg:pt-24 pb-10 text-gray-700 mt-8 lg:mt-0 w-[450px] mx-auto lg:w-full text-lg lg:text-[22px] font-normal">
           <p>
             We're a team of elite financial professionals whose unwavering focus
             is empowering traders with the tools and resources to achieve

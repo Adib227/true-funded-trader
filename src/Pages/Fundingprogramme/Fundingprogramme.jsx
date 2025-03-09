@@ -21,7 +21,7 @@ const Fundingprogramme = () => {
           <p className="space-y-5">
             {' '}
             <div className="relative z-10 flex items-center space-x-4">
-              <div className="px-6 py-3  text-left  bg-[#151718] text-white font-bold text-xl rounded-xl shadow-xl w-96 border-1 border-gray-400  ">
+              <div className="px-6 py-3  text-left  bg-[#151718] text-white font-bold text-xl rounded-xl shadow-xl w-80 lg:w-96 border-1 border-gray-400  ">
                 <span className="text-[14px] font-normal">
                   Receive 95% Profit share
                 </span>{' '}
@@ -44,7 +44,7 @@ const Fundingprogramme = () => {
               </div>
             </div>
             <div className="relative z-10 flex items-center space-x-4">
-              <div className="px-6 py-3 text-left  bg-[#151718] text-white  rounded-xl shadow-xl w-96 border-1 border-gray-400   ">
+              <div className="px-6 py-3 text-left  bg-[#151718] text-white  rounded-xl shadow-xl w-80 lg:w-96 border-1 border-gray-400   ">
                 <span className="text-[14px] font-normal ">
                   First Payout on demand then biweekly payouts
                 </span>{' '}
@@ -66,7 +66,7 @@ const Fundingprogramme = () => {
               </div>
             </div>
             <div className="relative z-10 flex items-center space-x-4">
-              <div className="px-6 py-3  text-left leading-4.5   bg-[#151718] text-white font-bold text-xl rounded-xl shadow-xl w-96 border-1 border-gray-400   ">
+              <div className="px-6 py-3  text-left leading-4.5   bg-[#151718] text-white font-bold text-xl rounded-xl shadow-xl w-80 lg:w-96 border-1 border-gray-400   ">
                 <span className="text-[14px] font-normal">
                   1 step evaluation, 2 step evaluation and instant funding all
                   available
@@ -90,7 +90,7 @@ const Fundingprogramme = () => {
               </div>
             </div>
             <div className="relative z-10 flex items-center space-x-4">
-              <div className="px-6 py-3  text-left  bg-[#151718] text-white font-bold text-xl rounded-xl shadow-xl w-96 border-1 border-gray-400  ">
+              <div className="px-6 py-3  text-left  bg-[#151718] text-white font-bold text-xl rounded-xl shadow-xl w-80 lg:w-96 border-1 border-gray-400  ">
                 <span className="text-[14px] font-normal">
                   Scaling Daily and maximum loss limits
                 </span>{' '}
@@ -113,7 +113,7 @@ const Fundingprogramme = () => {
               </div>
             </div>
             <div className="relative z-10 flex items-center space-x-4">
-              <div className="px-6 py-3  text-left  bg-[#151718] text-white font-bold text-xl rounded-xl shadow-xl w-96 border-1 border-gray-400   ">
+              <div className="px-6 py-3  text-left  bg-[#151718] text-white font-bold text-xl rounded-xl shadow-xl w-80 lg:w-96 border-1 border-gray-400   ">
                 <span className="text-[14px] font-normal">
                   20% profit share from challenge phases
                 </span>{' '}
@@ -136,7 +136,7 @@ const Fundingprogramme = () => {
               </div>
             </div>
             <div className="relative z-10 flex items-center space-x-4">
-              <div className="px-6 py-3  text-left   bg-[#151718] text-white font-bold text-xl rounded-xl shadow-xl w-96 border-1 border-gray-400   ">
+              <div className="px-6 py-3  text-left   bg-[#151718] text-white font-bold text-xl rounded-xl shadow-xl w-80 lg:w-96 border-1 border-gray-400   ">
                 <span className="text-[14px] font-normal">
                   Trade your own daD-to-day Strategy or system
                 </span>{' '}
@@ -164,7 +164,10 @@ const Fundingprogramme = () => {
         {/* left side ends here */}
 
         {/* image start */}
-        <div className="grid items-center">
+        <div
+          className="grid items-center py-12
+        "
+        >
           <img src="https://i.ibb.co.com/XxD2hq3F/Group.png" alt="" />
         </div>
         {/* image end */}
@@ -208,7 +211,7 @@ const Fundingprogramme = () => {
                   />
                 </span>
               </div>
-              <div className="px-6 py-3 ml-1  leading-5  bg-[#151718] text-white font-bold text-xl rounded-xl shadow-xl w-96 border-1 border-gray-400  ">
+              <div className="px-6 py-3 ml-1  leading-5  bg-[#151718] text-white font-bold text-xl rounded-xl shadow-xl w-80 lg:w-96 border-1 border-gray-400  ">
                 <span className="text-[14px] font-normal ml-3">
                   EA's and News trading allow
                 </span>{' '}
@@ -231,7 +234,7 @@ const Fundingprogramme = () => {
                   />
                 </span>
               </div>
-              <div className="px-6 py-3 ml-1  leading-5  bg-[#151718] text-white font-bold text-xl rounded-xl shadow-xl w-96 border-1 border-gray-400  ">
+              <div className="px-6 py-3 ml-1  leading-5  bg-[#151718] text-white font-bold text-xl rounded-xl shadow-xl w-80 lg:w-96 border-1 border-gray-400  ">
                 <span className="text-[14px] font-normal ml-3">
                   Hold trades over the weekend
                 </span>{' '}
@@ -254,7 +257,7 @@ const Fundingprogramme = () => {
                   />
                 </span>
               </div>
-              <div className="px-6 py-3 ml-1  leading-5  bg-[#151718] text-white font-bold text-xl rounded-xl shadow-xl w-96 border-1 border-gray-400   ">
+              <div className="px-6 py-3 ml-1  leading-5  bg-[#151718] text-white font-bold text-xl rounded-xl shadow-xl w-80 lg:w-96 border-1 border-gray-400   ">
                 <span className="text-[14px] font-normal ml-3">
                   Receive 95% Profit share
                 </span>{' '}
@@ -277,7 +280,7 @@ const Fundingprogramme = () => {
                   />
                 </span>
               </div>
-              <div className="px-6 py-3 ml-1  leading-4 bg-[#151718] text-white font-bold text-xl rounded-r-xl shadow-xl w-96 border-1 border-gray-400   ">
+              <div className="px-6 py-3 ml-1  leading-4 bg-[#151718] text-white font-bold text-xl rounded-r-xl shadow-xl w-80 lg:w-96 border-1 border-gray-400   ">
                 <span className="text-[14px] font-normal ml-3 ">
                   Real-time Data included on dashboard
                 </span>{' '}
@@ -300,7 +303,7 @@ const Fundingprogramme = () => {
                   />
                 </span>
               </div>
-              <div className="px-6 py-3 ml-1  leading-5  bg-[#151718] text-white font-bold text-xl rounded-xl shadow-xl w-96 border-1 border-gray-400   ">
+              <div className="px-6 py-3 ml-1  leading-5  bg-[#151718] text-white font-bold text-xl rounded-xl shadow-xl w-80 lg:w-96 border-1 border-gray-400   ">
                 <span className="text-[14px] font-normal ml-3">
                   Simple risk management rules
                 </span>{' '}
@@ -323,7 +326,7 @@ const Fundingprogramme = () => {
                   />
                 </span>
               </div>
-              <div className="px-6 py-3 ml-1  leading-4  bg-[#151718] text-white font-bold text-xl rounded-xl shadow-xl w-96 border-1 border-gray-400   ">
+              <div className="px-6 py-3 ml-1  leading-4  bg-[#151718] text-white font-bold text-xl rounded-xl shadow-xl w-80 lg:w-96 border-1 border-gray-400   ">
                 <span className="text-[14px] font-normal ml-3">
                   Trade with multiple accounts up to $5M
                 </span>{' '}

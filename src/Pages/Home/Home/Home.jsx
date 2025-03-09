@@ -12,12 +12,12 @@ const Home = () => {
         className="w-full lg:max-w-[1920px] mx-auto h-full lg:h-[1050px] text-white"
         style={homebackground}
       >
-        <div className="hero flex lg:grid w-full lg:max-w-[1840px] mx-auto min-h-screen">
+        <div className="hero grid-cols-1 lg:grid w-full lg:max-w-[1840px] mx-auto min-h-screen">
           <div className="hero-content max-w-[1840px] mx-auto  flex-col lg:flex-row justify-between">
             <div>
               {' '}
               <img
-                className="w-72 lg:w-[690px] h-56 lg:h-[490px]"
+                className="w-[400px] lg:w-[690px] h-80 lg:h-[490px] mt-28 lg:mt-0"
                 src="https://i.ibb.co.com/kgptLyhv/image.png"
               />
             </div>
@@ -26,50 +26,50 @@ const Home = () => {
               <p className="flex items-center gap-4.5 pb-4">
                 <a
                   href=""
-                  className="w-8 lg:w-12 h-8 lg:h-12 mr-1 lg:mr-2 border rounded-full justify-center align-middle justify-items-center shadow-md shadow-cyan-300  hover:border-2  hover:border-[#0DFFF0]  "
+                  className="w-10 lg:w-12 h-10 lg:h-12 mr-1 lg:mr-2 border rounded-full justify-center align-middle justify-items-center shadow-md shadow-cyan-300  hover:border-2  hover:border-[#0DFFF0]  "
                 >
                   <img
-                    className=" pt-2.5  "
+                    className="pt-2 lg:pt-2.5  "
                     src="https://i.ibb.co.com/KjT1fSNy/facebook-176-svgrepo-com-1.png"
                     alt=""
                   />
                 </a>
                 <a
                   href=""
-                  className="w-8 lg:w-12 h-8 lg:h-12 mr-1 lg:mr-2 border rounded-full justify-center align-middle justify-items-center shadow-md shadow-cyan-300  hover:border-2 hover:border-[#0DFFF0] "
+                  className="w-10 lg:w-12 h-10 lg:h-12 mr-1 lg:mr-2 border rounded-full justify-center align-middle justify-items-center shadow-md shadow-cyan-300  hover:border-2 hover:border-[#0DFFF0] "
                 >
                   <img
-                    className=" pt-2  "
+                    className=" pt-1  lg:pt-2  "
                     src="https://i.ibb.co.com/Xxwrwdqm/instagram-svgrepo-com-1.png"
                     alt=""
                   />
                 </a>
                 <a
                   href=""
-                  className="w-8 lg:w-12 h-8 lg:h-12 mr-1 lg:mr-2 border rounded-full justify-center align-middle justify-items-center shadow-md shadow-cyan-300  hover:border-2 hover:border-[#0DFFF0] "
+                  className="w-10 lg:w-12 h-10 lg:h-12 mr-1 lg:mr-2 border rounded-full justify-center align-middle justify-items-center shadow-md shadow-cyan-300  hover:border-2 hover:border-[#0DFFF0] "
                 >
                   <img
-                    className=" pt-2.5 "
+                    className="pt-2 lg:pt-2.5 "
                     src="https://i.ibb.co.com/hxhbBfBb/youtube-svgrepo-com-1.png"
                     alt=""
                   />
                 </a>
                 <a
                   href=""
-                  className="w-8 lg:w-12 h-8 lg:h-12 mr-1 lg:mr-2 border rounded-full justify-center align-middle justify-items-center shadow-md shadow-cyan-300  hover:border-2 hover:border-[#0DFFF0] "
+                  className="w-10 lg:w-12 h-10 lg:h-12 mr-1 lg:mr-2 border rounded-full justify-center align-middle justify-items-center shadow-md shadow-cyan-300  hover:border-2 hover:border-[#0DFFF0] "
                 >
                   <img
-                    className=" pt-2"
+                    className="pt-1.5 lg:pt-2"
                     src="https://i.ibb.co.com/3YcjKnc0/8546766-discord-icon-1.png"
                     alt=""
                   />
                 </a>
                 <a
                   href=""
-                  className="w-8 lg:w-12 h-8 lg:h-12 mr-1 lg:mr-2 border rounded-full justify-center align-middle justify-items-center shadow-md shadow-cyan-300  hover:border-2 hover:border-[#0DFFF0] "
+                  className="w-10 lg:w-12 h-10 lg:h-12 mr-1 lg:mr-2 border rounded-full justify-center align-middle justify-items-center shadow-md shadow-cyan-300  hover:border-2 hover:border-[#0DFFF0] "
                 >
                   <img
-                    className=" w-10 h-10 pt-1  "
+                    className=" w-10 h-10  lg:pt-1  "
                     src="https://i.ibb.co.com/4RhCyBdW/twitter-1.png"
                     alt=""
                   />
@@ -78,7 +78,7 @@ const Home = () => {
               {/* The 5 icons on banner end */}
               <h1
                 style={{ fontFamily: 'Montserrat, sans-serif' }}
-                className="text-3xl lg:text-7xl font-semibold lg:font-extrabold  "
+                className="text-5xl lg:text-7xl font-semibold lg:font-extrabold  "
               >
                 <span className=" bg-gradient-to-r from-[#FF2E00] via-[#FFF500] to-[#1BF1FF] animate-[gradientText_9s_infinite_alternate_linear] bg-[length:200%_200%] duration-100 bg-clip-text text-transparent">
                   Modern Prop Trading Firm{' '}
@@ -123,82 +123,95 @@ const Home = () => {
                 style={{ fontFamily: 'Montserrat, sans-serif' }}
                 className=" text-[16px] pt-8"
               >
-                <p className="flex items-center">
-                  <img
-                    className="w-6 h-6"
-                    src="https://i.ibb.co.com/mrpmmv9r/social-network-3916785-1.png"
-                    alt=""
-                  />
-                  <span className="font-bold pl-2 text-[#53FF37]">99%</span>{' '}
-                  <span className="font-medium pl-2 pr-2">Satisfaction</span> |{' '}
-                  <img
-                    className="w-6 h-6 ml-2"
-                    src="https://i.ibb.co.com/Q7cN5Cr5/employees-14644998-1.png"
-                    alt=""
-                  />
-                  <span className="font-bold pl-2 text-[#0FF1FF]">9K +</span>{' '}
-                  <span className="font-medium pl-2 pr-2">Traders </span> |{' '}
-                  <img
-                    className="w-6 h-6 ml-2"
-                    src="https://i.ibb.co.com/23KttcnQ/zap.png"
-                    alt=""
-                  />
-                  <span className="font-bold pl-2 text-[#FFA41C]"> Fast </span>{' '}
-                  <span className="font-medium pl-2"> Payouts</span>
-                </p>
+                <div className="grid lg:flex items-center">
+                  <div className="flex">
+                    {' '}
+                    <img
+                      className="w-6 h-6"
+                      src="https://i.ibb.co.com/mrpmmv9r/social-network-3916785-1.png"
+                      alt=""
+                    />
+                    <span className="font-bold pl-2 text-[#53FF37]">99%</span>{' '}
+                    <span className="font-medium pl-2 pr-2">Satisfaction</span>{' '}
+                    |{' '}
+                  </div>
+                  <div className="flex py-4">
+                    <img
+                      className="w-6 h-6 ml-2"
+                      src="https://i.ibb.co.com/Q7cN5Cr5/employees-14644998-1.png"
+                      alt=""
+                    />
+                    <span className="font-bold pl-2 text-[#0FF1FF]">9K +</span>{' '}
+                    <span className="font-medium pl-2 pr-2">Traders </span> |{' '}
+                  </div>
+                  <div className="flex">
+                    <img
+                      className="w-6 h-6 ml-2"
+                      src="https://i.ibb.co.com/23KttcnQ/zap.png"
+                      alt=""
+                    />
+                    <span className="font-bold pl-2 text-[#FFA41C]">
+                      {' '}
+                      Fast{' '}
+                    </span>{' '}
+                    <span className="font-medium pl-2"> Payouts</span>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
-          <section className=" lg:mt-[800px]">
-            <div className=" border-red-900">
-              {/* Home section marquee starts here */}
+          <div>
+            <section className="mt-[1250px] lg:mt-[800px]">
+              <div className=" border-red-900">
+                {/* Home section marquee starts here */}
 
-              <Marquee className="p-8 gap-x-4 " speed={100}>
-                <p className="flex items-center justify-center">
-                  <img
-                    className="mr-5 ml-8 w-14 h-14"
-                    src="https://s3-alpha-sig.figma.com/img/f978/08cb/b01d3cb9bc6e9976fa4adf045d8826e7?Expires=1742169600&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=NDQjt53dFjiugwfvRETLfTBsVVcQMfwqt2d9rSLvvO2lYux3mL9Wvui2YBjOoaWUVrIEd3PW5kCNM8Ep1vDFW6hCbR5ajaYB-6GVtvZSWqgAPeFmkL3vwWByC46b4-uqIu9cJ7gw6LdN1xrRAU1U2eH~0bPj-19momiE-UV1XxfoiaQTzvRdc4fUkRwym8evMU5SLAZRTn11zQRT7SUCS4YtKmFCboavDzaDE40lpfN94XPuIac6J460nfen~SZJncfl6avhqcDQFVp6vQV6lrj9KpoSXJagBPWO71PK9MiZ-vkpK0BmKpOplhFufoDKqsPpA2hJG9BbeM6hEu3Gjw__"
-                    alt=""
-                  />
-                  <span className=" font-semibold text-lg bg-gradient-to-r from-[#FF2E00] via-[#FFF500] to-[#1BF1FF]  bg-clip-text text-transparent">
-                    Use Code: June 24 For 20% Off on All Challenge{' '}
-                  </span>
-                </p>
-                <p className="flex items-center justify-center">
-                  <img
-                    className="mr-5 ml-8 w-14 h-14"
-                    src="https://s3-alpha-sig.figma.com/img/f978/08cb/b01d3cb9bc6e9976fa4adf045d8826e7?Expires=1742169600&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=NDQjt53dFjiugwfvRETLfTBsVVcQMfwqt2d9rSLvvO2lYux3mL9Wvui2YBjOoaWUVrIEd3PW5kCNM8Ep1vDFW6hCbR5ajaYB-6GVtvZSWqgAPeFmkL3vwWByC46b4-uqIu9cJ7gw6LdN1xrRAU1U2eH~0bPj-19momiE-UV1XxfoiaQTzvRdc4fUkRwym8evMU5SLAZRTn11zQRT7SUCS4YtKmFCboavDzaDE40lpfN94XPuIac6J460nfen~SZJncfl6avhqcDQFVp6vQV6lrj9KpoSXJagBPWO71PK9MiZ-vkpK0BmKpOplhFufoDKqsPpA2hJG9BbeM6hEu3Gjw__"
-                    alt=""
-                  />
-                  <span className="font-semibold text-lg bg-gradient-to-r from-[#FF2E00] via-[#FFF500] to-[#1BF1FF]  bg-clip-text text-transparent">
-                    Use Code: June 24 For 20% Off on All Challenge{' '}
-                  </span>
-                </p>
-                <p className="flex items-center justify-center">
-                  <img
-                    className="mr-5 ml-8 w-14 h-14"
-                    src="https://s3-alpha-sig.figma.com/img/f978/08cb/b01d3cb9bc6e9976fa4adf045d8826e7?Expires=1742169600&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=NDQjt53dFjiugwfvRETLfTBsVVcQMfwqt2d9rSLvvO2lYux3mL9Wvui2YBjOoaWUVrIEd3PW5kCNM8Ep1vDFW6hCbR5ajaYB-6GVtvZSWqgAPeFmkL3vwWByC46b4-uqIu9cJ7gw6LdN1xrRAU1U2eH~0bPj-19momiE-UV1XxfoiaQTzvRdc4fUkRwym8evMU5SLAZRTn11zQRT7SUCS4YtKmFCboavDzaDE40lpfN94XPuIac6J460nfen~SZJncfl6avhqcDQFVp6vQV6lrj9KpoSXJagBPWO71PK9MiZ-vkpK0BmKpOplhFufoDKqsPpA2hJG9BbeM6hEu3Gjw__"
-                    alt=""
-                  />
-                  <span className=" font-semibold text-lg bg-gradient-to-r from-[#FF2E00] via-[#FFF500] to-[#1BF1FF]  bg-clip-text text-transparent">
-                    Use Code: June 24 For 20% Off on All Challenge{' '}
-                  </span>
-                </p>
-                <p className="flex items-center justify-center">
-                  <img
-                    className="mr-5 ml-8 w-14 h-14"
-                    src="https://s3-alpha-sig.figma.com/img/f978/08cb/b01d3cb9bc6e9976fa4adf045d8826e7?Expires=1742169600&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=NDQjt53dFjiugwfvRETLfTBsVVcQMfwqt2d9rSLvvO2lYux3mL9Wvui2YBjOoaWUVrIEd3PW5kCNM8Ep1vDFW6hCbR5ajaYB-6GVtvZSWqgAPeFmkL3vwWByC46b4-uqIu9cJ7gw6LdN1xrRAU1U2eH~0bPj-19momiE-UV1XxfoiaQTzvRdc4fUkRwym8evMU5SLAZRTn11zQRT7SUCS4YtKmFCboavDzaDE40lpfN94XPuIac6J460nfen~SZJncfl6avhqcDQFVp6vQV6lrj9KpoSXJagBPWO71PK9MiZ-vkpK0BmKpOplhFufoDKqsPpA2hJG9BbeM6hEu3Gjw__"
-                    alt=""
-                  />
-                  <span className=" font-semibold text-lg bg-gradient-to-r from-[#FF2E00] via-[#FFF500] to-[#1BF1FF]  bg-clip-text text-transparent">
-                    Use Code: June 24 For 20% Off on All Challenge{' '}
-                  </span>
-                </p>
-              </Marquee>
+                <Marquee className="p-8 gap-x-4 " speed={100}>
+                  <p className="flex items-center justify-center">
+                    <img
+                      className="mr-5 ml-8 w-14 h-14"
+                      src="https://s3-alpha-sig.figma.com/img/f978/08cb/b01d3cb9bc6e9976fa4adf045d8826e7?Expires=1742169600&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=NDQjt53dFjiugwfvRETLfTBsVVcQMfwqt2d9rSLvvO2lYux3mL9Wvui2YBjOoaWUVrIEd3PW5kCNM8Ep1vDFW6hCbR5ajaYB-6GVtvZSWqgAPeFmkL3vwWByC46b4-uqIu9cJ7gw6LdN1xrRAU1U2eH~0bPj-19momiE-UV1XxfoiaQTzvRdc4fUkRwym8evMU5SLAZRTn11zQRT7SUCS4YtKmFCboavDzaDE40lpfN94XPuIac6J460nfen~SZJncfl6avhqcDQFVp6vQV6lrj9KpoSXJagBPWO71PK9MiZ-vkpK0BmKpOplhFufoDKqsPpA2hJG9BbeM6hEu3Gjw__"
+                      alt=""
+                    />
+                    <span className=" font-semibold text-lg bg-gradient-to-r from-[#FF2E00] via-[#FFF500] to-[#1BF1FF]  bg-clip-text text-transparent">
+                      Use Code: June 24 For 20% Off on All Challenge{' '}
+                    </span>
+                  </p>
+                  <p className="flex items-center justify-center">
+                    <img
+                      className="mr-5 ml-8 w-14 h-14"
+                      src="https://s3-alpha-sig.figma.com/img/f978/08cb/b01d3cb9bc6e9976fa4adf045d8826e7?Expires=1742169600&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=NDQjt53dFjiugwfvRETLfTBsVVcQMfwqt2d9rSLvvO2lYux3mL9Wvui2YBjOoaWUVrIEd3PW5kCNM8Ep1vDFW6hCbR5ajaYB-6GVtvZSWqgAPeFmkL3vwWByC46b4-uqIu9cJ7gw6LdN1xrRAU1U2eH~0bPj-19momiE-UV1XxfoiaQTzvRdc4fUkRwym8evMU5SLAZRTn11zQRT7SUCS4YtKmFCboavDzaDE40lpfN94XPuIac6J460nfen~SZJncfl6avhqcDQFVp6vQV6lrj9KpoSXJagBPWO71PK9MiZ-vkpK0BmKpOplhFufoDKqsPpA2hJG9BbeM6hEu3Gjw__"
+                      alt=""
+                    />
+                    <span className="font-semibold text-lg bg-gradient-to-r from-[#FF2E00] via-[#FFF500] to-[#1BF1FF]  bg-clip-text text-transparent">
+                      Use Code: June 24 For 20% Off on All Challenge{' '}
+                    </span>
+                  </p>
+                  <p className="flex items-center justify-center">
+                    <img
+                      className="mr-5 ml-8 w-14 h-14"
+                      src="https://s3-alpha-sig.figma.com/img/f978/08cb/b01d3cb9bc6e9976fa4adf045d8826e7?Expires=1742169600&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=NDQjt53dFjiugwfvRETLfTBsVVcQMfwqt2d9rSLvvO2lYux3mL9Wvui2YBjOoaWUVrIEd3PW5kCNM8Ep1vDFW6hCbR5ajaYB-6GVtvZSWqgAPeFmkL3vwWByC46b4-uqIu9cJ7gw6LdN1xrRAU1U2eH~0bPj-19momiE-UV1XxfoiaQTzvRdc4fUkRwym8evMU5SLAZRTn11zQRT7SUCS4YtKmFCboavDzaDE40lpfN94XPuIac6J460nfen~SZJncfl6avhqcDQFVp6vQV6lrj9KpoSXJagBPWO71PK9MiZ-vkpK0BmKpOplhFufoDKqsPpA2hJG9BbeM6hEu3Gjw__"
+                      alt=""
+                    />
+                    <span className=" font-semibold text-lg bg-gradient-to-r from-[#FF2E00] via-[#FFF500] to-[#1BF1FF]  bg-clip-text text-transparent">
+                      Use Code: June 24 For 20% Off on All Challenge{' '}
+                    </span>
+                  </p>
+                  <p className="flex items-center justify-center">
+                    <img
+                      className="mr-5 ml-8 w-14 h-14"
+                      src="https://s3-alpha-sig.figma.com/img/f978/08cb/b01d3cb9bc6e9976fa4adf045d8826e7?Expires=1742169600&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=NDQjt53dFjiugwfvRETLfTBsVVcQMfwqt2d9rSLvvO2lYux3mL9Wvui2YBjOoaWUVrIEd3PW5kCNM8Ep1vDFW6hCbR5ajaYB-6GVtvZSWqgAPeFmkL3vwWByC46b4-uqIu9cJ7gw6LdN1xrRAU1U2eH~0bPj-19momiE-UV1XxfoiaQTzvRdc4fUkRwym8evMU5SLAZRTn11zQRT7SUCS4YtKmFCboavDzaDE40lpfN94XPuIac6J460nfen~SZJncfl6avhqcDQFVp6vQV6lrj9KpoSXJagBPWO71PK9MiZ-vkpK0BmKpOplhFufoDKqsPpA2hJG9BbeM6hEu3Gjw__"
+                      alt=""
+                    />
+                    <span className=" font-semibold text-lg bg-gradient-to-r from-[#FF2E00] via-[#FFF500] to-[#1BF1FF]  bg-clip-text text-transparent">
+                      Use Code: June 24 For 20% Off on All Challenge{' '}
+                    </span>
+                  </p>
+                </Marquee>
 
-              {/* Home section marquee ends here */}
-            </div>
-          </section>
+                {/* Home section marquee ends here */}
+              </div>
+            </section>
+          </div>
         </div>
       </div>
     </>

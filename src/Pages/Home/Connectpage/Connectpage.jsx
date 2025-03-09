@@ -3,9 +3,9 @@ const Connectpage = () => {
     <div className="w-full lg:max-w-[1920px]">
       <div
         style={{ fontFamily: 'Montserrat, sans-serif' }}
-        className="text-center pt-2 lg:pt-11"
+        className="text-center pt-16 lg:pt-11"
       >
-        <h1 className="text-5xl font-bold bg-gradient-to-r from-black to-gray-400  bg-clip-text text-transparent">
+        <h1 className="text-5xl font-bold bg-gradient-to-r from-black to-gray-400  bg-clip-text text-transparent ">
           Connect With Us
         </h1>
         <p className="text-xl pt-4 pb-7 font-bold bg-gradient-to-r from-black to-gray-400  bg-clip-text text-transparent">
@@ -14,9 +14,9 @@ const Connectpage = () => {
       </div>
       <div
         style={{ fontFamily: 'Montserrat, sans-serif' }}
-        className="flex justify-between"
+        className="grid lg:flex justify-between"
       >
-        <div className="w-1/2 pl-0 lg:pl-36 pt-14">
+        <div className="w-full lg:w-1/2 pl-6 lg:pl-36 pt-14">
           <div>
             <h1>
               <button className="w-8 lg:w-10 h-8 lg:h-10 mr-1 lg:mr-2 border rounded-full justify-center align-middle justify-items-center">
@@ -59,7 +59,7 @@ const Connectpage = () => {
             </div>
           </div>
         </div>
-        <div className="w-1/2">
+        <div className="w-full lg:w-1/2">
           <section className="p-6 ">
             <form
               noValidate=""

@@ -40,7 +40,7 @@ const Affiliate = () => {
             {' '}
             PAYOUT SCHEDULE
           </h1>
-          <p className="font-bold text-3xl pt-8"> Biweekly</p>
+          <p className="font-bold text-3xl pt-8 mb-8 lg:mb-0"> Biweekly</p>
         </div>
       </div>
     </div>

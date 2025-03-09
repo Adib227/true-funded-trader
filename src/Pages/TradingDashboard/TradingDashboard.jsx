@@ -7,12 +7,12 @@ const TradingDashboard = () => {
       >
         <div className="absolute left-6 lg:left-64 mt-10 lg:mt-[500px]  w-96 h-96 bg-blue-400 opacity-30 blur-[120px]  rounded-full"></div>
         <h1>
-          <span className="text-7xl font-medium">Our Modern</span>
-          <span className="text-7xl font-extrabold bg-gradient-to-r from-[#FF2E00] via-[#FFF500] to-[#FFFFFF]  animate-[gradientText_9s_infinite_alternate_linear] bg-[length:200%_200%] duration-100  bg-clip-text text-transparent ml-3">
+          <span className="text-4xl lg:text-7xl font-medium">Our Modern</span>
+          <span className="text-4xl lg:text-7xl font-extrabold bg-gradient-to-r from-[#FF2E00] via-[#FFF500] to-[#FFFFFF]  animate-[gradientText_9s_infinite_alternate_linear] bg-[length:200%_200%] duration-100  bg-clip-text text-transparent ml-3">
             Trading Dashboard
           </span>
         </h1>
-        <p className="text-lg font-normal w-full lg:w-[1100px] mx-auto pt-7">
+        <p className="text-sm lg:text-lg font-normal w-full lg:w-[1100px] mx-auto pt-7">
           We offer our traders advanced trading analytics, which allows our
           traders to assess their trading status and performance in depth to
           highlight key areas that need improve and also areas of consistent
@@ -40,11 +40,11 @@ const TradingDashboard = () => {
             </div>
 
             {/* Dotted Line - Bottom Right */}
-            <div className="absolute pt-56">
+            <div className="absolute  pt-56">
               {' '}
               <img src="https://i.ibb.co.com/dsSZWzc9/Dot-2.png" alt="" />
             </div>
-            <div className="absolute pt-96">
+            <div className="absolute pt-44 lg:pt-96">
               {' '}
               <img
                 className="pt-28"

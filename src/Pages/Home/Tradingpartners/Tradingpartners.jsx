@@ -6,7 +6,7 @@ const Tradingpartners = () => {
         style={{ fontFamily: 'Montserrat, sans-serif' }}
         className="grid bg-[#05133B]/75 text-white  items-center justify-center h-full "
       >
-        <div className="text-center text-5xl font-bold -mb-2 lg:-mb-28">
+        <div className="text-center text-3xl lg:text-5xl font-bold -mb-28">
           Our Trading Partners
         </div>
         <div className="max-w-[570px] mx-auto">
@@ -16,7 +16,7 @@ const Tradingpartners = () => {
             alt=""
           />
         </div>
-        <div className="flex justify-evenly max-w-[570px] mx-auto h-24 w-[570px] bg-green-200 rounded-2xl -mt-2 lg:-mt-32 bg-gradient-to-r from-[#0147e4] via-[#FE55EF] to-[#0046E2] ">
+        <div className="flex justify-evenly max-w-[570px] mx-auto h-24 w-full lg:w-[570px] bg-green-200 rounded-2xl -mt-2 lg:-mt-32 bg-gradient-to-r from-[#0147e4] via-[#FE55EF] to-[#0046E2] ">
           <h1 className="flex justify-center items-center text-2xl font-bold">
             MetaTrader 4
           </h1>

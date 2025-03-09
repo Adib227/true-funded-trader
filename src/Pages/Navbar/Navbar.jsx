@@ -107,7 +107,7 @@ const Navbar = () => {
             </li>
           </ul>
         </div>
-        <div className="navbar-end pr-20">
+        <div className="navbar-end lg:pr-20">
           {/* <a
             href=""
             className="relative inline-block p-[2px] rounded-lg bg-gradient-to-r from-purple-500 via-pink-500 to-yellow-500 "
@@ -121,7 +121,7 @@ const Navbar = () => {
             href=""
             type="button"
             style={{ fontFamily: 'Inter, sans-serif' }}
-            className="flex mr-0 lg:mr-8  rounded-3xl py-2 px-4 text-white gap-x-2 "
+            className="flex mr-8  rounded-3xl py-2 px-4 text-white gap-x-2 "
           >
             {' '}
             <img
@@ -134,7 +134,7 @@ const Navbar = () => {
           <a
             href=""
             style={{ fontFamily: 'Montserrat, sans-serif' }}
-            className="font-semibold rounded-2xl flex lg:block px-4 lg:px-7 pt-1 lg:pt-2.5  text-white  bg-gradient-to-r from-[#FF521C] via-[#FFB21E] to-[#FBFF2B] hover:bg-blue-950 hover:bg-none border-0 shadow-md   hover:border-2 hover:border-[#0DFFF0]   transition-all  duration-75      hover:shadow-cyan-300 h-8 lg:h-11  lg:w-48 text-center "
+            className="font-semibold rounded-2xl flex lg:block px-8 lg:px-7 pt-1 lg:pt-2.5  text-white  bg-gradient-to-r from-[#FF521C] via-[#FFB21E] to-[#FBFF2B] hover:bg-blue-950 hover:bg-none border-0 shadow-md   hover:border-2 hover:border-[#0DFFF0]   transition-all  duration-75   hover:shadow-cyan-300 h-14 lg:h-11  w-32  lg:w-48 text-center "
           >
             <span>Get Started</span> <span>></span>
           </a>
