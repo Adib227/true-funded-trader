@@ -16,6 +16,7 @@ import TradingAssets from '../Pages/TradingAssets/TradingAssets';
 import Getfunded from '../Pages/Getfunded/Getfunded';
 import Questions from '../Pages/Questions/Questions';
 import Fourcards from '../Pages/Fourcards/Fourcards';
+import Twocards from '../Pages/Twocards/Twocards';
 
 const Main = () => {
   return (
@@ -30,10 +31,11 @@ const Main = () => {
       <TradingDashboard></TradingDashboard>
       <Fundingprogramme></Fundingprogramme>
       <Fourcards></Fourcards>
+      <Payouts></Payouts>
       <TradingAssets></TradingAssets>
       <Tradingpartners></Tradingpartners>
       <Affiliate></Affiliate>
-      <Payouts></Payouts>
+      <Twocards></Twocards>
       <Questions></Questions>
       <Testimonial></Testimonial>
       <Connectpage></Connectpage>
