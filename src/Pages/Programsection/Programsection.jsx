@@ -95,56 +95,56 @@ const Programsection = () => {
 
         {/* All 8 buttons start here */}
 
-        <section className="mt-12 space-y-16 ">
-          <div className="w-full lg:w-[1120px] mx-auto">
+        <section className="mt-12 space-y-8 lg:space-y-16 ">
+          <div className=" w-full lg:w-[1120px] mx-auto grid space-y-4 lg:space-y-0 lg:flex justify-center space-x-0 lg:space-x-12">
             {' '}
             <a
               href=""
-              className="w-8 lg:w-12 h-8 lg:h-12 mr-1 lg:mr-12 py-4 lg:py-3 px-2 lg:px-7 border rounded-full justify-center shadow-cyan-300 shadow-[0px_0px_10px_rgba(0,0,0,0.3)]  hover:border-2  hover:border-[#26FF3C] hover:shadow-[0px_0px_10px_rgba(0,0,0,0.3)] hover:shadow-[#26FF3C] text-[16px] font-bold "
+              className="   py-4 lg:py-3 px-2 lg:px-7 border rounded-full justify-center shadow-cyan-300 shadow-[0px_0px_10px_rgba(0,0,0,0.3)]  hover:border-2  hover:border-[#26FF3C] hover:shadow-[0px_0px_10px_rgba(0,0,0,0.3)] hover:shadow-[#26FF3C] text-[16px] font-bold "
             >
               1-Step Evaluation
             </a>
             <a
               href=""
-              className="w-8 lg:w-12 h-8 lg:h-12 mr-1 lg:mr-12 py-4 lg:py-3 px-2 lg:px-7 border rounded-full justify-center  shadow-cyan-300 shadow-[0px_0px_10px_rgba(0,0,0,0.3)]  hover:border-2  hover:border-[#26FF3C] hover:shadow-[0px_0px_10px_rgba(0,0,0,0.3)] hover:shadow-[#26FF3C] text-[16px] font-bold"
+              className="   py-4 lg:py-3 px-2 lg:px-7 border rounded-full justify-center  shadow-cyan-300 shadow-[0px_0px_10px_rgba(0,0,0,0.3)]  hover:border-2  hover:border-[#26FF3C] hover:shadow-[0px_0px_10px_rgba(0,0,0,0.3)] hover:shadow-[#26FF3C] text-[16px] font-bold"
             >
               2-Step Evaluation
             </a>
             <a
               href=""
-              className="w-8 lg:w-12 h-8 lg:h-12 mr-1 lg:mr-2 py-4 lg:py-3 px-2 lg:px-7 border rounded-full justify-center  shadow-cyan-300 shadow-[0px_0px_10px_rgba(0,0,0,0.3)]  hover:border-2  hover:border-[#26FF3C] hover:shadow-[0px_0px_10px_rgba(0,0,0,0.3)] hover:shadow-[#26FF3C] text-[16px] font-bold"
+              className=" py-4 lg:py-3 px-2 lg:px-7 border rounded-full justify-center  shadow-cyan-300 shadow-[0px_0px_10px_rgba(0,0,0,0.3)]  hover:border-2  hover:border-[#26FF3C] hover:shadow-[0px_0px_10px_rgba(0,0,0,0.3)] hover:shadow-[#26FF3C] text-[16px] font-bold"
             >
               Instant Funding
             </a>
           </div>
-          <div className="w-full lg:w-[1120px] mx-auto">
+          <div className="w-full lg:w-[1120px] mx-auto  grid space-y-4 lg:space-y-0 lg:flex justify-center space-x-0 lg:space-x-10">
             <a
               href=""
-              className="w-8 lg:w-12 h-8 lg:h-12 mr-1 lg:mr-8 py-3 px-7 border rounded-full justify-center align-middle justify-items-center  shadow-cyan-300 shadow-[0px_0px_10px_rgba(0,0,0,0.3)]  hover:border-2  hover:border-[#26FF3C] hover:shadow-[0px_0px_10px_rgba(0,0,0,0.3)] hover:shadow-[#26FF3C] text-[16px] font-bold"
+              className="  py-3 px-7 border rounded-full justify-center align-middle justify-items-center  shadow-cyan-300 shadow-[0px_0px_10px_rgba(0,0,0,0.3)]  hover:border-2  hover:border-[#26FF3C] hover:shadow-[0px_0px_10px_rgba(0,0,0,0.3)] hover:shadow-[#26FF3C] text-[16px] font-bold"
             >
               Beginner
             </a>
             <a
               href=""
-              className="w-8 lg:w-12 h-8 lg:h-12 mr-1 lg:mr-8 py-3 px-7 border rounded-full justify-center align-middle justify-items-center  shadow-cyan-300 shadow-[0px_0px_10px_rgba(0,0,0,0.3)]  hover:border-2  hover:border-[#26FF3C] hover:shadow-[0px_0px_10px_rgba(0,0,0,0.3)] hover:shadow-[#26FF3C] text-[16px] font-bold"
+              className=" py-3 px-7 border rounded-full justify-center align-middle justify-items-center  shadow-cyan-300 shadow-[0px_0px_10px_rgba(0,0,0,0.3)]  hover:border-2  hover:border-[#26FF3C] hover:shadow-[0px_0px_10px_rgba(0,0,0,0.3)] hover:shadow-[#26FF3C] text-[16px] font-bold"
             >
               Intermediate
             </a>
             <a
               href=""
-              className="w-8 lg:w-12 h-8 lg:h-12 mr-1 lg:mr-8 py-3 px-7 border rounded-full justify-center align-middle justify-items-center  shadow-cyan-300 shadow-[0px_0px_10px_rgba(0,0,0,0.3)]  hover:border-2  hover:border-[#26FF3C] hover:shadow-[0px_0px_10px_rgba(0,0,0,0.3)] hover:shadow-[#26FF3C] text-[16px] font-bold"
+              className=" py-3 px-7 border rounded-full justify-center align-middle justify-items-center  shadow-cyan-300 shadow-[0px_0px_10px_rgba(0,0,0,0.3)]  hover:border-2  hover:border-[#26FF3C] hover:shadow-[0px_0px_10px_rgba(0,0,0,0.3)] hover:shadow-[#26FF3C] text-[16px] font-bold"
             >
               Advanced
             </a>
             <a
               href=""
-              className="w-8 lg:w-12 h-8 lg:h-12 mr-1 lg:mr-8 py-3 px-7 border rounded-full justify-center align-middle justify-items-center  shadow-cyan-300 shadow-[0px_0px_10px_rgba(0,0,0,0.3)]  hover:border-2  hover:border-[#26FF3C] hover:shadow-[0px_0px_10px_rgba(0,0,0,0.3)] hover:shadow-[#26FF3C] text-[16px] font-bold"
+              className=" py-3 px-7 border rounded-full justify-center align-middle justify-items-center  shadow-cyan-300 shadow-[0px_0px_10px_rgba(0,0,0,0.3)]  hover:border-2  hover:border-[#26FF3C] hover:shadow-[0px_0px_10px_rgba(0,0,0,0.3)] hover:shadow-[#26FF3C] text-[16px] font-bold"
             >
               Professional
             </a>
             <a
               href=""
-              className="w-8 lg:w-12 h-8 lg:h-12 mr-1 lg:mr-2 py-3 px-7 border rounded-full justify-center align-middle justify-items-center  shadow-cyan-300 shadow-[0px_0px_10px_rgba(0,0,0,0.3)]  hover:border-2  hover:border-[#26FF3C] hover:shadow-[0px_0px_10px_rgba(0,0,0,0.3)] hover:shadow-[#26FF3C] text-[16px] font-bold"
+              className=" py-3 px-7 border rounded-full justify-center align-middle justify-items-center  shadow-cyan-300 shadow-[0px_0px_10px_rgba(0,0,0,0.3)]  hover:border-2  hover:border-[#26FF3C] hover:shadow-[0px_0px_10px_rgba(0,0,0,0.3)] hover:shadow-[#26FF3C] text-[16px] font-bold"
             >
               Master
             </a>

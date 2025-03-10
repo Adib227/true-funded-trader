@@ -2,21 +2,21 @@ const Featuresection = () => {
   return (
     <div style={{ fontFamily: 'Montserrat, sans-serif' }}>
       <div className="block lg:flex max-w-full lg:max-w-[1500px] mx-auto justify-center lg:justify-evenly space-y-16 lg:space-y-0  py-16 lg:py-0">
-        <div className="bg-white p-10 ml-32 lg:ml-0 shadow-2xl rounded-xl -mt-2 lg:-mt-10 text-center w-72 h-40">
+        <div className="bg-white p-10 ml-24 lg:ml-0 shadow-2xl rounded-xl -mt-2 lg:-mt-10 text-center w-72 h-40">
           <span className="text-[42px] font-bold">90 +</span> <br />{' '}
           <span className="font-semibold text-xl">Countries Covered</span>
           <div className="absolute  w-96 h-96 bg-violet-300 opacity-30 rounded-full blur-3xl"></div>
           <div className="absolute lg:ml-[500px]  w-96 h-96 bg-[#FCD13B26] opacity-50 rounded-full blur-3xl"></div>
         </div>
-        <div className="bg-white p-10 ml-32 lg:ml-0 shadow-2xl rounded-xl -mt-10 text-center  w-72 h-40">
+        <div className="bg-white p-10 ml-24 lg:ml-0 shadow-2xl rounded-xl -mt-10 text-center  w-72 h-40">
           <span className="text-[42px] font-bold"> $ 5M +</span> <br />{' '}
           <span className="font-semibold text-xl">Payout Processed</span>
         </div>
-        <div className="bg-white p-10 ml-32 lg:ml-0 shadow-2xl rounded-xl -mt-10 text-center  w-72 h-40">
+        <div className="bg-white p-10 ml-24 lg:ml-0 shadow-2xl rounded-xl -mt-10 text-center  w-72 h-40">
           <span className="text-[42px] font-bold">5 hrs</span> <br />{' '}
           <span className="font-semibold text-xl">Avg. Payout time</span>
         </div>
-        <div className="bg-white p-10 ml-32 lg:ml-0 shadow-2xl rounded-xl -mt-10 text-center  w-72 h-40">
+        <div className="bg-white p-10 ml-24 lg:ml-0 shadow-2xl rounded-xl -mt-10 text-center  w-72 h-40">
           <span className="text-[42px] font-bold"> 1 K+</span> <br />{' '}
           <span className="font-semibold text-xl">Payout Processed</span>
           <div className="absolute  w-96 h-96 bg-violet-300 opacity-30 rounded-full blur-3xl"></div>

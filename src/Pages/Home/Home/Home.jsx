@@ -161,7 +161,7 @@ const Home = () => {
             </div>
           </div>
           <div>
-            <section className="mt-[1250px] lg:mt-[800px]">
+            <section className="mt-[1250px] lg:mt-[800px] w-[420px] lg:w-full">
               <div className=" border-red-900">
                 {/* Home section marquee starts here */}
 

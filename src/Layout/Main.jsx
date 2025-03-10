@@ -15,6 +15,7 @@ import Programsection from '../Pages/Programsection/Programsection';
 import TradingAssets from '../Pages/TradingAssets/TradingAssets';
 import Getfunded from '../Pages/Getfunded/Getfunded';
 import Questions from '../Pages/Questions/Questions';
+import Fourcards from '../Pages/Fourcards/Fourcards';
 
 const Main = () => {
   return (
@@ -28,6 +29,7 @@ const Main = () => {
       <FundedTrader></FundedTrader>
       <TradingDashboard></TradingDashboard>
       <Fundingprogramme></Fundingprogramme>
+      <Fourcards></Fourcards>
       <TradingAssets></TradingAssets>
       <Tradingpartners></Tradingpartners>
       <Affiliate></Affiliate>

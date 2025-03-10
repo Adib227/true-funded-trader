@@ -18,24 +18,27 @@ const Threecard = () => {
       </div>
       {/* Card section Starts here */}
       <div className="grid lg:flex w-full lg:w-[1600px] mx-auto justify-between ">
-        <div
-          className="w-[420px] h-[290px] bg-gradient-to-b from-[#FF6523] to-[#FFFFFF] rounded-2xl 
-         p-6 my-10  border-[10px_20px_10px_20px_rgba(0.9,0,0,0.3)] shadow-[0px_0px_10px_rgba(1.5,0,0,0.3)] "
-        >
-          <h1 className="text-[16px] font-bold">STEP 1</h1>
-          <img
-            src="https://i.ibb.co.com/pjs55Vw7/Rectangle-2-removebg-preview.png"
-            alt=""
-          />{' '}
-          <h2 className="text-lg font-bold text-black">Challenge</h2>
-          <p className="text-[12px] font-normal text-black">
-            Welcome to your funded journey! We keep our challenge as simple as
-            possible so you can focus on your trades easily. In this phase you
-            must have to meet our easy and simple trading objectives to progress
-            onto phase 2.
-          </p>
+        <div className=" rounded-2xl  p-px">
+          <div
+            className="  w-96 lg:w-[420px] h-[290px] bg-gradient-to-b from-[#FF6523] to-[#FFFFFF] rounded-2xl 
+         p-6 space-y-3 my-10 shadow-[10px_0px_10px_rgba(0.9,0,0,0.3)] "
+          >
+            <h1 className="text-[16px] font-bold">STEP 1</h1>
+            <img
+              src="https://i.ibb.co.com/pjs55Vw7/Rectangle-2-removebg-preview.png"
+              alt=""
+            />{' '}
+            <h2 className="text-lg font-bold text-black">Challenge</h2>
+            <p className="text-[12px] font-normal text-black">
+              Welcome to your funded journey! We keep our challenge as simple as
+              possible so you can focus on your trades easily. In this phase you
+              must have to meet our easy and simple trading objectives to
+              progress onto phase 2.
+            </p>
+          </div>
         </div>
-        <div className="w-[420px] h-[290px] bg-gradient-to-b from-[#FF6523] to-[#FFFFFF] rounded-2xl p-6 space-y-3 my-10">
+
+        <div className="w-96 lg:w-[420px] h-[290px] bg-gradient-to-b from-[#FF6523] to-[#FFFFFF] rounded-2xl p-6 space-y-3 my-10">
           <h1 className="text-[16px] font-bold">STEP 2</h1>
           <img
             src="https://i.ibb.co.com/TDcMKnpg/Rectangle-removebg-preview.png"
@@ -48,7 +51,7 @@ const Threecard = () => {
             completed. you will automatically be upgraded as funded trader!
           </p>
         </div>
-        <div className="w-[420px] h-[290px] bg-gradient-to-b from-[#FF6523] to-[#FFFFFF] rounded-2xl p-6 space-y-3 my-10">
+        <div className="w-96 lg:w-[420px] h-[290px] bg-gradient-to-b from-[#FF6523] to-[#FFFFFF] rounded-2xl p-6 space-y-3 my-10">
           <h1 className="text-[16px] font-bold">STEP 3</h1>
           <img
             src="https://i.ibb.co.com/ZpXvChrt/Rectangle-1-removebg-preview.png"
