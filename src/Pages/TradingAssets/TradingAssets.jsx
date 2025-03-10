@@ -14,8 +14,8 @@ const TradingAssets = () => {
           profit on!
         </p>
       </div>
-      <div className="grid lg:flex  w-full  lg:w-[1600px] mx-auto pt-20 lg:pt-40  justify-between space-y-20 lg:space-y-0 ml-40 lg:ml-0">
-        <div className="text-center w-[250px] h-[300px] p-10 rounded-3xl shadow-[0px_2px_5.3px_0px_rgba(255,101,35,0.30)] ">
+      <div className="grid lg:flex w-full  lg:w-[1600px] mx-auto pt-20 pb-12  lg:pt-40  justify-between space-y-20 lg:space-y-0 ">
+        <div className="text-center w-[250px] h-[300px]  p-10 rounded-3xl ml-20 lg:ml-0 shadow-[0px_2px_5.3px_0px_rgba(255,101,35,0.30)] ">
           <img
             className="p-6 ml-8 -mt-20 bg-white rounded-full shadow-[0px_0px_5.3px_5px_rgba(255,101,35,0.30)] "
             src="https://i.ibb.co.com/sdWn3v8X/fx-svgrepo-com-1.png"
@@ -34,7 +34,7 @@ const TradingAssets = () => {
             <span>Start Funding</span>
           </a>
         </div>
-        <div className="text-center w-[250px] h-[300px] p-10 rounded-3xl shadow-[0px_2px_5.3px_0px_rgba(255,101,35,0.30)] ">
+        <div className="text-center w-[250px] h-[300px] p-10 rounded-3xl ml-20 lg:ml-0 shadow-[0px_2px_5.3px_0px_rgba(255,101,35,0.30)] ">
           <img
             className="p-6 ml-8 -mt-20 bg-white rounded-full shadow-[0px_0px_5.3px_5px_rgba(255,101,35,0.30)]"
             src="https://i.ibb.co.com/sdWn3v8X/fx-svgrepo-com-1.png"
@@ -53,7 +53,7 @@ const TradingAssets = () => {
             <span>Start Funding</span>
           </a>
         </div>
-        <div className="text-center w-[250px] h-[300px] p-10 rounded-3xl shadow-[0px_2px_5.3px_0px_rgba(255,101,35,0.30)] ">
+        <div className="text-center w-[250px] h-[300px] p-10 rounded-3xl ml-20 lg:ml-0 shadow-[0px_2px_5.3px_0px_rgba(255,101,35,0.30)] ">
           <img
             className="p-6 ml-8 -mt-20 bg-white rounded-full shadow-[0px_0px_5.3px_5px_rgba(255,101,35,0.30)]"
             src="https://i.ibb.co.com/sdWn3v8X/fx-svgrepo-com-1.png"
@@ -72,7 +72,7 @@ const TradingAssets = () => {
             <span>Start Funding</span>
           </a>
         </div>
-        <div className="text-center w-[250px] h-[300px] p-10 rounded-3xl shadow-[0px_2px_5.3px_0px_rgba(255,101,35,0.30)] ">
+        <div className="text-center w-[250px] h-[300px] p-10 rounded-3xl ml-20 lg:ml-0 shadow-[0px_2px_5.3px_0px_rgba(255,101,35,0.30)] ">
           <img
             className="p-6 ml-8 -mt-20 bg-white rounded-full shadow-[0px_0px_5.3px_5px_rgba(255,101,35,0.30)]"
             src="https://i.ibb.co.com/sdWn3v8X/fx-svgrepo-com-1.png"
@@ -91,7 +91,7 @@ const TradingAssets = () => {
             <span>Start Funding</span>
           </a>
         </div>
-        <div className="text-center w-[250px] h-[300px] p-10 rounded-3xl shadow-[0px_2px_5.3px_0px_rgba(255,101,35,0.30)] ">
+        <div className="text-center w-[250px] h-[300px] p-10 rounded-3xl ml-20 lg:ml-0 shadow-[0px_2px_5.3px_0px_rgba(255,101,35,0.30)] ">
           <img
             className="p-6 ml-8 -mt-20 bg-white rounded-full shadow-[0px_0px_5.3px_5px_rgba(255,101,35,0.30)]"
             src="https://i.ibb.co.com/sdWn3v8X/fx-svgrepo-com-1.png"
@@ -110,7 +110,7 @@ const TradingAssets = () => {
             <span>Start Funding</span>
           </a>
         </div>
-        <div className="text-center w-[250px] h-[300px] p-10 rounded-3xl shadow-[0px_2px_5.3px_0px_rgba(255,101,35,0.30)] ">
+        <div className="text-center w-[250px] h-[300px] p-10 rounded-3xl ml-20 lg:ml-0 shadow-[0px_2px_5.3px_0px_rgba(255,101,35,0.30)] ">
           <img
             className="p-6 ml-8 -mt-20 bg-white rounded-full shadow-[0px_0px_5.3px_5px_rgba(255,101,35,0.30)]"
             src="https://i.ibb.co.com/sdWn3v8X/fx-svgrepo-com-1.png"
