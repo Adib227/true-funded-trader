@@ -4,7 +4,7 @@ const Twocards = () => {
       style={{ fontFamily: 'Montserrat, sans-serif' }}
       className="grid lg:flex justify-evenly bg-[#05133B] pt-20 lg:pt-32 h-full lg:h-[920px] text-white w-full mx-auto"
     >
-      <div className="grid lg:flex w-full lg:w-[1550px] mx-auto">
+      <div className="grid lg:flex w-full lg:w-[1550px] mx-auto space-y-16">
         {' '}
         <div className="pt-12 space-y-10">
           <h1 className="text-[26px] font-bold bg-gradient-to-r from-[#00F0FF] via-[#EB00FF] to-[#EB00FF] bg-clip-text text-transparent">

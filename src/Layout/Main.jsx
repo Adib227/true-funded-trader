@@ -17,6 +17,7 @@ import Getfunded from '../Pages/Getfunded/Getfunded';
 import Questions from '../Pages/Questions/Questions';
 import Fourcards from '../Pages/Fourcards/Fourcards';
 import Twocards from '../Pages/Twocards/Twocards';
+import Discordsection from '../Pages/Discordsection/Discordsection';
 
 const Main = () => {
   return (
@@ -38,6 +39,7 @@ const Main = () => {
       <Twocards></Twocards>
       <Questions></Questions>
       <Testimonial></Testimonial>
+      <Discordsection></Discordsection>
       <Connectpage></Connectpage>
       <Footer></Footer>
     </div>

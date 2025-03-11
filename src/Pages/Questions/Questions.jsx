@@ -3,7 +3,7 @@ const Questions = () => {
     <div className="h-full lg:h-[860px] bg-[#05133B] text-white grid">
       <div
         style={{ fontFamily: 'Montserrat, sans-serif' }}
-        className="text-center text-5xl lg:text-7xl font-extrabold pt-20 pb-12"
+        className="text-center text-5xl lg:text-7xl font-extrabold pt-20 pb-12 bg-gradient-to-r from-[#FF2E00] via-[#FFF500] to-white   animate-[gradientText_9s_infinite_alternate_linear] bg-[length:200%_200%] duration-100 bg-clip-text text-transparent"
       >
         Frequently Asked Questions
       </div>
