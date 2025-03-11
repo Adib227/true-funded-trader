@@ -18,6 +18,7 @@ import Questions from '../Pages/Questions/Questions';
 import Fourcards from '../Pages/Fourcards/Fourcards';
 import Twocards from '../Pages/Twocards/Twocards';
 import Discordsection from '../Pages/Discordsection/Discordsection';
+import Optionsection from '../Pages/Optionsection/Optionsection';
 
 const Main = () => {
   return (
@@ -31,8 +32,9 @@ const Main = () => {
       <FundedTrader></FundedTrader>
       <TradingDashboard></TradingDashboard>
       <Fundingprogramme></Fundingprogramme>
-      <Fourcards></Fourcards>
+      <Optionsection></Optionsection>
       <Payouts></Payouts>
+      <Fourcards></Fourcards>
       <TradingAssets></TradingAssets>
       <Tradingpartners></Tradingpartners>
       <Affiliate></Affiliate>

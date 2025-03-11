@@ -6,19 +6,21 @@ const Twocards = () => {
     >
       <div className="grid lg:flex w-full lg:w-[1550px] mx-auto space-y-16">
         {' '}
-        <div className="pt-12 space-y-10">
+        <div className="pt-12 lg:pt-20 space-y-14">
           <h1 className="text-[26px] font-bold bg-gradient-to-r from-[#00F0FF] via-[#EB00FF] to-[#EB00FF] bg-clip-text text-transparent">
             Become a true funded trader talent hunter today
           </h1>
           <h1 className="text-5xl font-bold  ">
             Join us in scouting talented traders and earn affiliate Commission
           </h1>
-          <a
-            href=""
-            className="font-bold rounded-4xl  p-4   text-white  bg-gradient-to-r from-[#FF521C] via-[#FFB21E] to-[#FBFF2B] hover:bg-blue-950 hover:bg-none border-0 shadow-md   hover:border-2 hover:border-[#0DFFF0] transition-all duration-75 hover:shadow-cyan-300 h-14 lg:h-11 w-52 text-center text-[14px]"
-          >
-            <span>Sign Up For Affiliate</span>
-          </a>
+          <div className="pt-8">
+            <a
+              href=""
+              className="font-bold rounded-4xl  p-4   text-white  bg-gradient-to-r from-[#FF521C] via-[#FFB21E] to-[#FBFF2B] hover:bg-blue-950 hover:bg-none border-0 shadow-md   hover:border-2 hover:border-[#0DFFF0] transition-all duration-75 hover:shadow-cyan-300 h-14 lg:h-11 w-52 text-center text-[14px]"
+            >
+              <span>Sign Up For Affiliate</span>
+            </a>
+          </div>
         </div>
         <div>
           <h1 className="bg-gradient-to-r from-[#00F0FF] via-[#EB00FF] to-[#EB00FF] bg-clip-text text-transparent text-xl font-bold pb-10">
