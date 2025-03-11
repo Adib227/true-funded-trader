@@ -2,7 +2,7 @@ const Payouts = () => {
   return (
     <div className="bg-[url('https://i.ibb.co.com/KPBbPLH/c6c4d3778ed30d1bdbb7be94fd2b0119.jpg')] border-none bg-cover bg-center h-full lg:h-[650px] w-full ">
       <div
-        className="max-w-[1640px] mx-auto grid lg:flex justify-between
+        className="w-full lg:max-w-[1640px] mx-auto grid lg:flex justify-between
       "
       >
         <div className="w-full lg:w-2/3 flex  items-center pl-4 pt-10 lg:pt-0">
@@ -55,10 +55,14 @@ const Payouts = () => {
               </div>
               <div
                 style={{ fontFamily: 'Anton, sans-serif' }}
-                className="px-6 py-3 ml-20 text-center   bg-gradient-to-b from-[#6f28ff] to-[#b827ff] text-white font-bold text-xl rounded-lg shadow-xl w-96 border-4 border-[#DB00FF] border-b-[#0000001A]"
+                className="px-6 py-3 ml-32 lg:ml-20 text-center   bg-gradient-to-b from-[#6f28ff] to-[#b827ff] text-white font-bold text-xl rounded-lg shadow-xl w-60 lg:w-96 border-4 border-[#DB00FF] border-b-[#0000001A]"
               >
-                <span className="text-4xl font-normal">Guaranteed</span>{' '}
-                <span className="text-6xl block font-medium">Payout</span>
+                <span className="text-3xl lg:text-4xl font-normal">
+                  Guaranteed
+                </span>{' '}
+                <span className="text-5xl lg:text-6xl block font-medium">
+                  Payout
+                </span>
               </div>
             </div>
           </div>

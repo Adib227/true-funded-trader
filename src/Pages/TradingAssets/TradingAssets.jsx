@@ -14,7 +14,7 @@ const TradingAssets = () => {
           profit on!
         </p>
       </div>
-      <div className="grid lg:flex w-full  lg:w-[1600px] mx-auto pt-20 pb-12  lg:pt-40  justify-between space-y-20 lg:space-y-0 ">
+      <div className="grid lg:flex w-full  lg:w-[1400px] mx-auto pt-20 pb-12  lg:pt-40  justify-between space-y-20 lg:space-y-0 ">
         <div className="text-center w-[250px] h-[300px]  p-10 rounded-3xl ml-20 lg:ml-0 shadow-[0px_2px_5.3px_0px_rgba(255,101,35,0.30)] ">
           <img
             className="p-6 ml-8 -mt-20 bg-white rounded-full shadow-[0px_0px_5.3px_5px_rgba(255,101,35,0.30)] "
@@ -37,13 +37,12 @@ const TradingAssets = () => {
         <div className="text-center w-[250px] h-[300px] p-10 rounded-3xl ml-20 lg:ml-0 shadow-[0px_2px_5.3px_0px_rgba(255,101,35,0.30)] ">
           <img
             className="p-6 ml-8 -mt-20 bg-white rounded-full shadow-[0px_0px_5.3px_5px_rgba(255,101,35,0.30)]"
-            src="https://i.ibb.co.com/sdWn3v8X/fx-svgrepo-com-1.png"
+            src="https://i.ibb.co.com/ymGS66SZ/gold-saving-finance-banking-coin-jewellery-value-svgrepo-com-1.png"
             alt=""
           />{' '}
-          <h2 className="text-xl font-bold pt-10">Forex</h2>
+          <h2 className="text-xl font-bold pt-10">METALS</h2>
           <p className="text-xs font-normal pt-4">
-            Trade over 50 major and minor{' '}
-            <span className="font-semibold">forex</span> pairs
+            Trade Gold, Silver and all other metals
           </p>
           <a
             href=""
@@ -54,6 +53,60 @@ const TradingAssets = () => {
           </a>
         </div>
         <div className="text-center w-[250px] h-[300px] p-10 rounded-3xl ml-20 lg:ml-0 shadow-[0px_2px_5.3px_0px_rgba(255,101,35,0.30)] ">
+          <img
+            className="p-6 ml-8 -mt-20 bg-white rounded-full shadow-[0px_0px_5.3px_5px_rgba(255,101,35,0.30)]"
+            src="https://i.ibb.co.com/JWf2nGcq/oil-barrel-svgrepo-com-1.png"
+            alt=""
+          />{' '}
+          <h2 className="text-xl font-bold pt-10">OIL</h2>
+          <p className="text-xs font-normal pt-4">
+            Trade Brent, WTI and others
+          </p>
+          <a
+            href=""
+            style={{ fontFamily: 'Montserrat, sans-serif' }}
+            className="font-semibold  rounded-3xl flex lg:block  px-7 lg:px-7 pt-1 lg:pt-2.5  text-white  bg-gradient-to-r from-[#FF521C] via-[#FFB21E] to-[#FBFF2B] hover:bg-white hover:text-black hover:bg-none border-0 shadow-md   lg:hover:border-2 hover:border-[#00DC23]   transition-all  duration-75      hover:shadow-green-400 h-8 lg:h-11  lg:w-48 text-center mt-12"
+          >
+            <span>Start Funding</span>
+          </a>
+        </div>
+        <div className="text-center w-[250px] h-[300px] p-10 rounded-3xl ml-20 lg:ml-0 shadow-[0px_2px_5.3px_0px_rgba(255,101,35,0.30)] ">
+          <img
+            className="p-6 ml-8 -mt-20 bg-white rounded-full shadow-[0px_0px_5.3px_5px_rgba(255,101,35,0.30)]"
+            src="https://i.ibb.co.com/yByh1gjF/scales-of-justice-svgrepo-com-1.png"
+            alt=""
+          />{' '}
+          <h2 className="text-xl font-bold pt-10">INDICIES</h2>
+          <p className="text-xs font-normal pt-4">
+            Trade the world’s largest stock indicies
+          </p>
+          <a
+            href=""
+            style={{ fontFamily: 'Montserrat, sans-serif' }}
+            className="font-semibold  rounded-3xl flex lg:block  px-7 lg:px-7 pt-1 lg:pt-2.5  text-white  bg-gradient-to-r from-[#FF521C] via-[#FFB21E] to-[#FBFF2B] hover:bg-white hover:text-black hover:bg-none border-0 shadow-md   lg:hover:border-2 hover:border-[#00DC23]   transition-all  duration-75      hover:shadow-green-400 h-8 lg:h-11  lg:w-48 text-center mt-12"
+          >
+            <span>Start Funding</span>
+          </a>
+        </div>
+        <div className="text-center w-[250px] h-[300px] p-10 rounded-3xl ml-20 lg:ml-0 shadow-[0px_2px_5.3px_0px_rgba(255,101,35,0.30)] ">
+          <img
+            className="p-6 ml-8 -mt-20 bg-white rounded-full shadow-[0px_0px_5.3px_5px_rgba(255,101,35,0.30)]"
+            src="https://i.ibb.co.com/SXPd3BZh/stock-ticker-svgrepo-com-1.png"
+            alt=""
+          />{' '}
+          <h2 className="text-xl font-bold pt-10">STOCK CFDS</h2>
+          <p className="text-xs font-normal pt-4">
+            Go long or short on the largest global stocks
+          </p>
+          <a
+            href=""
+            style={{ fontFamily: 'Montserrat, sans-serif' }}
+            className="font-semibold  rounded-3xl flex lg:block  px-7 lg:px-7 pt-1 lg:pt-2.5  text-white  bg-gradient-to-r from-[#FF521C] via-[#FFB21E] to-[#FBFF2B] hover:bg-white hover:text-black hover:bg-none border-0 shadow-md   lg:hover:border-2 hover:border-[#00DC23]   transition-all  duration-75      hover:shadow-green-400 h-8 lg:h-11  lg:w-48 text-center mt-12"
+          >
+            <span>Start Funding</span>
+          </a>
+        </div>
+        {/* <div className="text-center w-[250px] h-[300px] p-10 rounded-3xl ml-20 lg:ml-0 shadow-[0px_2px_5.3px_0px_rgba(255,101,35,0.30)] ">
           <img
             className="p-6 ml-8 -mt-20 bg-white rounded-full shadow-[0px_0px_5.3px_5px_rgba(255,101,35,0.30)]"
             src="https://i.ibb.co.com/sdWn3v8X/fx-svgrepo-com-1.png"
@@ -71,64 +124,7 @@ const TradingAssets = () => {
           >
             <span>Start Funding</span>
           </a>
-        </div>
-        <div className="text-center w-[250px] h-[300px] p-10 rounded-3xl ml-20 lg:ml-0 shadow-[0px_2px_5.3px_0px_rgba(255,101,35,0.30)] ">
-          <img
-            className="p-6 ml-8 -mt-20 bg-white rounded-full shadow-[0px_0px_5.3px_5px_rgba(255,101,35,0.30)]"
-            src="https://i.ibb.co.com/sdWn3v8X/fx-svgrepo-com-1.png"
-            alt=""
-          />{' '}
-          <h2 className="text-xl font-bold pt-10">Forex</h2>
-          <p className="text-xs font-normal pt-4">
-            Trade over 50 major and minor{' '}
-            <span className="font-semibold">forex</span> pairs
-          </p>
-          <a
-            href=""
-            style={{ fontFamily: 'Montserrat, sans-serif' }}
-            className="font-semibold  rounded-3xl flex lg:block  px-7 lg:px-7 pt-1 lg:pt-2.5  text-white  bg-gradient-to-r from-[#FF521C] via-[#FFB21E] to-[#FBFF2B] hover:bg-white hover:text-black hover:bg-none border-0 shadow-md   lg:hover:border-2 hover:border-[#00DC23]   transition-all  duration-75      hover:shadow-green-400 h-8 lg:h-11  lg:w-48 text-center mt-12"
-          >
-            <span>Start Funding</span>
-          </a>
-        </div>
-        <div className="text-center w-[250px] h-[300px] p-10 rounded-3xl ml-20 lg:ml-0 shadow-[0px_2px_5.3px_0px_rgba(255,101,35,0.30)] ">
-          <img
-            className="p-6 ml-8 -mt-20 bg-white rounded-full shadow-[0px_0px_5.3px_5px_rgba(255,101,35,0.30)]"
-            src="https://i.ibb.co.com/sdWn3v8X/fx-svgrepo-com-1.png"
-            alt=""
-          />{' '}
-          <h2 className="text-xl font-bold pt-10">Forex</h2>
-          <p className="text-xs font-normal pt-4">
-            Trade over 50 major and minor{' '}
-            <span className="font-semibold">forex</span> pairs
-          </p>
-          <a
-            href=""
-            style={{ fontFamily: 'Montserrat, sans-serif' }}
-            className="font-semibold  rounded-3xl flex lg:block  px-7 lg:px-7 pt-1 lg:pt-2.5  text-white  bg-gradient-to-r from-[#FF521C] via-[#FFB21E] to-[#FBFF2B] hover:bg-white hover:text-black hover:bg-none border-0 shadow-md   lg:hover:border-2 hover:border-[#00DC23]   transition-all  duration-75      hover:shadow-green-400 h-8 lg:h-11  lg:w-48 text-center mt-12"
-          >
-            <span>Start Funding</span>
-          </a>
-        </div>
-        <div className="text-center w-[250px] h-[300px] p-10 rounded-3xl ml-20 lg:ml-0 shadow-[0px_2px_5.3px_0px_rgba(255,101,35,0.30)] ">
-          <img
-            className="p-6 ml-8 -mt-20 bg-white rounded-full shadow-[0px_0px_5.3px_5px_rgba(255,101,35,0.30)]"
-            src="https://i.ibb.co.com/sdWn3v8X/fx-svgrepo-com-1.png"
-            alt=""
-          />{' '}
-          <h2 className="text-xl font-bold pt-10">Forex</h2>
-          <p className="text-xs font-normal pt-4">
-            Trade over 50 major and minor{' '}
-            <span className="font-semibold">forex</span> pairs
-          </p>
-          <a
-            href=""
-            style={{ fontFamily: 'Montserrat, sans-serif' }}
-            className="font-semibold  rounded-3xl flex lg:block  px-7 lg:px-7 pt-1 lg:pt-2.5  text-white  bg-gradient-to-r from-[#FF521C] via-[#FFB21E] to-[#FBFF2B] hover:bg-white hover:text-black hover:bg-none border-0 shadow-md   lg:hover:border-2 hover:border-[#00DC23]   transition-all  duration-75      hover:shadow-green-400 h-8 lg:h-11  lg:w-48 text-center mt-12"
-          >
-            <span>Start Funding</span>
-          </a>
-        </div>
+        </div> */}
       </div>
     </div>
   );

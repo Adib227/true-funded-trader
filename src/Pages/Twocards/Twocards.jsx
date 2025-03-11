@@ -16,7 +16,7 @@ const Twocards = () => {
           <div className="pt-8">
             <a
               href=""
-              className="font-bold rounded-4xl  p-4   text-white  bg-gradient-to-r from-[#FF521C] via-[#FFB21E] to-[#FBFF2B] hover:bg-blue-950 hover:bg-none border-0 shadow-md   hover:border-2 hover:border-[#0DFFF0] transition-all duration-75 hover:shadow-cyan-300 h-14 lg:h-11 w-52 text-center text-[14px]"
+              className="font-bold rounded-4xl  py-4 px-8   text-white  bg-gradient-to-r from-[#FF521C] via-[#FFB21E] to-[#FBFF2B] hover:bg-blue-950 hover:bg-none border-0 shadow-md   hover:border-2 hover:border-[#0DFFF0] transition-all duration-75 hover:shadow-cyan-300 h-14 lg:h-11 w-52 text-center text-[14px]"
             >
               <span>Sign Up For Affiliate</span>
             </a>

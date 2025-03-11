@@ -19,6 +19,7 @@ import Fourcards from '../Pages/Fourcards/Fourcards';
 import Twocards from '../Pages/Twocards/Twocards';
 import Discordsection from '../Pages/Discordsection/Discordsection';
 import Optionsection from '../Pages/Optionsection/Optionsection';
+import Withdrawsection from '../Pages/Withdrawsection/Withdrawsection';
 
 const Main = () => {
   return (
@@ -33,6 +34,7 @@ const Main = () => {
       <TradingDashboard></TradingDashboard>
       <Fundingprogramme></Fundingprogramme>
       <Optionsection></Optionsection>
+      <Withdrawsection></Withdrawsection>
       <Payouts></Payouts>
       <Fourcards></Fourcards>
       <TradingAssets></TradingAssets>
