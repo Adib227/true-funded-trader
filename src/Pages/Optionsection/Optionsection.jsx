@@ -9,11 +9,11 @@ const Optionsection = () => {
       className="  h-full lg:h-[840px]  text-black "
     >
       <div>
-        <div className="absolute  w-96 h-96 bg-[#1A2BC630] opacity-100 rounded-full blur-3xl ml-72"></div>
+        <div className="absolute  w-96 h-96 bg-[#1A2BC630] opacity-100 rounded-full blur-3xl ml-auto lg:ml-72"></div>
         <h1 className=" text-5xl font-extrabold text-center py-12 ">
           Compare Your Option{' '}
         </h1>
-        <div className="absolute  w-96 h-96 bg-[#1A2BC630] opacity-100 rounded-full blur-3xl right-90 "></div>
+        <div className="absolute  w-96 h-96 bg-[#1A2BC630] opacity-100 rounded-full blur-3xl right-auto lg:right-90 "></div>
       </div>
       <div>
         {' '}

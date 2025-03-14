@@ -47,7 +47,7 @@ const Getfunded = () => {
             // Second div (Visible when toggled)
             <div className="grid lg:flex space-x-12 space-y-10 lg:space-y-2">
               {' '}
-              <div className=" w-96 h-[400px] p-4  bg-[#0F1018] shadow-lg rounded-2xl border border-[#666666] hover:backdrop-blur-md hover:bg-white/10 animate__animated animate__fadeInLeftBig ">
+              <div className="w-80 lg:w-96 h-[400px] p-4  bg-[#0F1018] shadow-lg rounded-2xl border border-[#666666] hover:backdrop-blur-md hover:bg-white/10 animate__animated animate__fadeInLeftBig ">
                 <h1 className=" w-16 h-16 mx-auto flex justify-center items-center rounded-full bg-[#001D69]  border-[#3A3A3A] border-2 font-bold text-xl -mt-12">
                   1
                 </h1>
@@ -104,7 +104,7 @@ const Getfunded = () => {
                 </div>
               </div>
               <div
-                className=" w-96 h-[400px] p-4  bg-[#0F1018] shadow-lg rounded-2xl border border-[#666666]  hover:backdrop-blur-md hover:bg-white/10
+                className=" w-80 lg:w-96 h-[400px] p-4  bg-[#0F1018] shadow-lg rounded-2xl border border-[#666666]  hover:backdrop-blur-md hover:bg-white/10
 animate__animated animate__fadeInUpBig"
               >
                 <h1 className=" w-16 h-16 mx-auto flex justify-center items-center rounded-full bg-[#001D69]  border-[#3A3A3A] border-2 font-bold text-xl -mt-12">
@@ -163,8 +163,8 @@ animate__animated animate__fadeInUpBig"
                 </div>
               </div>
               <div
-                className=" w-96 h-[400px] p-4  bg-[#0F1018] shadow-lg rounded-2xl border border-[#666666]  hover:backdrop-blur-md hover:bg-white/10
- animate__animated animate__fadeInRightBig"
+                className=" w-80 lg:w-96 h-[400px] p-4  bg-[#0F1018] shadow-lg rounded-2xl border border-[#666666]  hover:backdrop-blur-md hover:bg-white/10
+ animate__animated animate__fadeInDownBig inline-block "
               >
                 <h1 className=" w-16 h-16 mx-auto flex justify-center items-center rounded-full bg-[#001D69]  border-[#3A3A3A] border-2 font-bold text-xl -mt-12">
                   3
@@ -224,7 +224,7 @@ animate__animated animate__fadeInUpBig"
             // First div (Initially visible)
             <div className="grid lg:flex space-x-12 space-y-10 lg:space-y-2">
               {' '}
-              <div className=" w-96 h-[400px] p-4  bg-[#0F1018] shadow-lg rounded-2xl border border-[#666666] hover:backdrop-blur-md hover:bg-white/10 ">
+              <div className=" w-80 lg:w-96 h-[400px] p-4  bg-[#0F1018] shadow-lg rounded-2xl border border-[#666666] hover:backdrop-blur-md hover:bg-white/10 ">
                 <h1 className=" w-16 h-16 mx-auto flex justify-center items-center rounded-full bg-[#001D69]  border-[#3A3A3A] border-2 font-bold text-xl -mt-12">
                   1
                 </h1>
@@ -281,7 +281,7 @@ animate__animated animate__fadeInUpBig"
                 </div>
               </div>
               <div
-                className=" w-96 h-[400px] p-4  bg-[#0F1018] shadow-lg rounded-xl border border-[#666666]  hover:backdrop-blur-md hover:bg-white/10
+                className=" w-80 lg:w-96 h-[400px] p-4  bg-[#0F1018] shadow-lg rounded-xl border border-[#666666]  hover:backdrop-blur-md hover:bg-white/10
 "
               >
                 <h1 className=" w-16 h-16 mx-auto flex justify-center items-center rounded-full bg-[#001D69]  border-[#3A3A3A] border-2 font-bold text-xl -mt-12">

@@ -55,7 +55,7 @@ const Testimonial = () => {
             We do our best to provide you the best experience ever
           </p>
         </div>
-        <div className="pt-8 w-full lg:w-[1680px] mx-auto">
+        <div className="pt-8 w-[305px] lg:w-[1680px] mx-auto">
           {' '}
           <Swiper
             spaceBetween={45}
@@ -80,7 +80,7 @@ const Testimonial = () => {
             className="mySwiper "
           >
             <SwiperSlide className="  shadow-xl m-4">
-              <div className="w-64 h-64 p-5 space-y-2">
+              <div className="w-[305px] lg:w-64 h-64 p-5 space-y-2">
                 <p>
                   <img
                     src="https://i.ibb.co.com/hxzw8Nx5/oi-double-quote-serif-left-1.png"
@@ -102,7 +102,7 @@ const Testimonial = () => {
               </div>
             </SwiperSlide>
             <SwiperSlide className="  shadow-xl m-4">
-              <div className="w-64 h-64 p-5 space-y-2">
+              <div className="w-[305px] lg:w-64 h-64 p-5 space-y-2">
                 <p>
                   <img
                     src="https://i.ibb.co.com/hxzw8Nx5/oi-double-quote-serif-left-1.png"
@@ -124,7 +124,7 @@ const Testimonial = () => {
               </div>
             </SwiperSlide>
             <SwiperSlide className="  shadow-xl m-4">
-              <div className="w-64 h-64 p-5 space-y-2">
+              <div className="w-[305px] lg:w-64 h-64 p-5 space-y-2">
                 <p>
                   <img
                     src="https://i.ibb.co.com/hxzw8Nx5/oi-double-quote-serif-left-1.png"
@@ -146,7 +146,7 @@ const Testimonial = () => {
               </div>
             </SwiperSlide>
             <SwiperSlide className="  shadow-xl m-4">
-              <div className="w-64 h-64 p-5 space-y-2">
+              <div className="w-[305px] lg:w-64 h-64 p-5 space-y-2">
                 <p>
                   <img
                     src="https://i.ibb.co.com/hxzw8Nx5/oi-double-quote-serif-left-1.png"
@@ -168,7 +168,7 @@ const Testimonial = () => {
               </div>
             </SwiperSlide>
             <SwiperSlide className="  shadow-xl m-4">
-              <div className="w-64 h-64 p-5 space-y-2">
+              <div className="w-[305px] lg:w-64 h-64 p-5 space-y-2">
                 <p>
                   <img
                     src="https://i.ibb.co.com/hxzw8Nx5/oi-double-quote-serif-left-1.png"
@@ -190,7 +190,7 @@ const Testimonial = () => {
               </div>
             </SwiperSlide>
             <SwiperSlide className="  shadow-xl m-4">
-              <div className="w-64 h-64 p-5 space-y-2">
+              <div className="w-[305px] lg:w-64 h-64 p-5 space-y-2">
                 <p>
                   <img
                     src="https://i.ibb.co.com/hxzw8Nx5/oi-double-quote-serif-left-1.png"
@@ -212,7 +212,7 @@ const Testimonial = () => {
               </div>
             </SwiperSlide>
             <SwiperSlide className="  shadow-xl m-4">
-              <div className="w-64 h-64 p-5 space-y-2">
+              <div className="w-[305px] lg:w-64 h-64 p-5 space-y-2">
                 <p>
                   <img
                     src="https://i.ibb.co.com/hxzw8Nx5/oi-double-quote-serif-left-1.png"
@@ -234,7 +234,7 @@ const Testimonial = () => {
               </div>
             </SwiperSlide>
             <SwiperSlide className="  shadow-xl m-4">
-              <div className="w-64 h-64 p-5 space-y-2">
+              <div className="w-[305px] lg:w-64 h-64 p-5 space-y-2">
                 <p>
                   <img
                     src="https://i.ibb.co.com/hxzw8Nx5/oi-double-quote-serif-left-1.png"
@@ -256,7 +256,7 @@ const Testimonial = () => {
               </div>
             </SwiperSlide>
             <SwiperSlide className="  shadow-xl m-4">
-              <div className="w-64 h-64 p-5 space-y-2">
+              <div className="w-[305px] lg:w-64 h-64 p-5 space-y-2">
                 <p>
                   <img
                     src="https://i.ibb.co.com/hxzw8Nx5/oi-double-quote-serif-left-1.png"

@@ -4,7 +4,7 @@ const Threecard = () => {
       style={{ fontFamily: 'Montserrat, sans-serif' }}
       className="bg-[#05133B] grid text-white h-full lg:h-[500px] "
     >
-      <div className="w-[1620px] mx-auto ">
+      <div className="w-full lg:w-[1620px] mx-auto ">
         <div className="space-y-3 pt-11 pb-16">
           <p className="text-[14px] lg:text-[16px] font-bold">How to Start</p>
           <h1 className="text-2xl lg:text-4xl font-bold">

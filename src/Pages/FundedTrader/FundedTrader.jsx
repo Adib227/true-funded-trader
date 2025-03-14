@@ -39,7 +39,7 @@ const FundedTrader = () => {
         </div>
 
         {/* Right Side Content */}
-        <div className="relative  z-10 max-w-none pt-16 lg:pt-24 pb-10 text-gray-700 mt-8 lg:mt-0 w-[450px] mx-auto lg:w-full text-lg lg:text-[22px] font-normal">
+        <div className="relative  z-10 max-w-none pt-16 lg:pt-24 pb-10 text-gray-700 mt-8 lg:mt-0  mx-auto   w-full text-lg lg:text-[22px] font-normal">
           <p>
             We're a team of elite financial professionals whose unwavering focus
             is empowering traders with the tools and resources to achieve

@@ -14,11 +14,11 @@ const Fundingprogramme = () => {
           Our <br /> Funding Program?
         </span>
       </div>
-      <div className="flex flex-col lg:flex-row w-[1500px] mx-auto justify-between ">
+      <div className="flex flex-col lg:flex-row w-full lg:w-[1500px] mx-auto justify-between ">
         {/* left side starts here */}
 
         <h1>
-          <p className="space-y-5">
+          <p className="space-y-5 ">
             {' '}
             <div className="relative z-10 flex items-center space-x-4">
               <div className="px-6 py-3  text-left  bg-[#151718] text-white font-bold text-xl rounded-xl shadow-xl w-80 lg:w-96 border-1 border-gray-400  ">
@@ -138,7 +138,7 @@ const Fundingprogramme = () => {
             <div className="relative z-10 flex items-center space-x-4">
               <div className="px-6 py-3  text-left   bg-[#151718] text-white font-bold text-xl rounded-xl shadow-xl w-80 lg:w-96 border-1 border-gray-400   ">
                 <span className="text-[14px] font-normal">
-                  Trade your own daD-to-day Strategy or system
+                  Trade your own day-to-day Strategy or system
                 </span>{' '}
                 {/* <span className="text-6xl block font-medium">Payout</span> */}
               </div>
