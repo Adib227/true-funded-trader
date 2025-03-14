@@ -1,73 +1,46 @@
 import { useState } from 'react';
+import { Swiper, SwiperSlide } from 'swiper/react';
+import 'swiper/css';
+import { Pagination } from 'swiper/modules';
+import 'swiper/css/pagination';
 
 const Programsection = () => {
   const products = [
     {
+      price: '5,000',
       id: 'p001',
-      product_name: 'Wireless Bluetooth Headphones',
-      price: 49.02,
-      short_description:
-        'High-quality wireless headphones with noise cancellation.',
+      short_description: 'One Time Fee: $50',
+      product_name: 'Beginner',
     },
     {
-      id: 'p002',
-      product_name: 'Smartphone Stand',
-      price: 12.87,
-      short_description:
-        'Adjustable aluminum stand for smartphones and tablets.',
+      price: '7,500',
+      id: 'p001',
+      short_description: 'One Time Fee: $70',
+      product_name: 'Beginner',
     },
     {
-      id: 'p003',
-      product_name: 'Mechanical Keyboard',
-      price: 79.39,
-      short_description: 'RGB backlit mechanical keyboard with blue switches.',
+      price: '10,000',
+      id: 'p001',
+      short_description: 'One Time Fee: $100',
+      product_name: 'Beginner',
     },
     {
-      id: 'p004',
-      product_name: 'Stainless Steel Water Bottle',
-      price: 19.26,
-      short_description:
-        'Vacuum insulated bottle keeps drinks hot or cold for hours.',
+      price: '12,500',
+      id: 'p001',
+      short_description: 'One Time Fee: $150',
+      product_name: 'Beginner',
     },
     {
-      id: 'p005',
-      product_name: 'USB-C Charging Cable',
-      price: 9.34,
-      short_description:
-        'Fast-charging USB-C cable compatible with most devices.',
+      price: '15,000',
+      id: 'p001',
+      short_description: 'One Time Fee: $200',
+      product_name: 'Beginner',
     },
     {
-      id: 'p006',
-      product_name: 'Gaming Mouse',
-      price: 34.55,
-      short_description:
-        'Ergonomic gaming mouse with customizable DPI settings.',
-    },
-    {
-      id: 'p007',
-      product_name: 'Portable Power Bank',
-      price: 29.47,
-      short_description: '10,000mAh power bank with fast charging support.',
-    },
-    {
-      id: 'p008',
-      product_name: 'LED Desk Lamp',
-      price: 24.59,
-      short_description:
-        'Dimmable LED desk lamp with touch controls and USB charging.',
-    },
-    {
-      id: 'p009',
-      product_name: 'Wireless Earbuds',
-      price: 39.99,
-      short_description:
-        'True wireless earbuds with deep bass and long battery life.',
-    },
-    {
-      id: 'p010',
-      product_name: 'Smartwatch',
-      price: 59.02,
-      short_description: 'Fitness tracking smartwatch with heart rate monitor.',
+      price: '17,500',
+      id: 'p001',
+      short_description: 'One Time Fee: $250',
+      product_name: 'Beginner',
     },
   ];
 
@@ -152,44 +125,113 @@ const Programsection = () => {
         </section>
         {/* All 8 buttons ends here */}
       </div>
-      <div className="pt-10 px-10">
+      <div className="pt-10 px-10 grid lg:flex w-full">
+        {/* Show the last clicked price below all products */}
+        <div
+          style={{ fontFamily: 'Inter, sans-serif' }}
+          className="mt-10 p-2  rounded-lg shadow-lg text-center w-full lg:w-1/3"
+        >
+          {selectedPrice !== null ? (
+            <p className=" text-lg font-bold text-white text-[36px] ">
+              Price: ${selectedPrice}
+            </p>
+          ) : (
+            <p className="text-gray-500"></p>
+          )}
+          <div className="px-0 lg:px-20    pt-6 space-y-1 ">
+            <div className="flex  justify-between font-semibold text-sm">
+              <h1>Virtual Profit Share: </h1>
+              <h1 className="text-[#42FF23]">95%</h1>
+            </div>
+            <hr className="text-[#444444]" />
+            <div className="flex justify-between font-semibold text-sm">
+              <h1>Virtual Profit Target: </h1>
+              <h1 className="text-[#42FF23]">8%</h1>
+            </div>
+            <hr className="text-[#444444]" />
+            <div className="flex justify-between font-semibold text-sm">
+              <h1>Daily Loss Limit: </h1>
+              <h1 className="text-[#42FF23]">6%</h1>
+            </div>
+            <hr className="text-[#444444]" />
+            <div className="flex justify-between font-semibold text-sm">
+              <h1>Maximum Loss Limit: </h1>
+              <h1 className="text-[#42FF23]">15%</h1>
+            </div>
+            <hr className="text-[#444444]" />
+            <div className="flex justify-between font-semibold text-sm">
+              <h1>Virtual Leverage: </h1>
+              <h1 className="text-[#42FF23]">1:200</h1>
+            </div>
+            <hr className="text-[#444444]" />
+            <div className="flex justify-between font-semibold text-sm">
+              <h1>Time Limits: </h1>
+              <h1 className="text-[#42FF23]">Unlimited</h1>
+            </div>
+            <hr className="text-[#444444]" />
+            <div className="flex justify-between font-semibold text-sm">
+              <h1>Minimum Trading Days: </h1>
+              <h1 className="text-[#42FF23]">0 Days</h1>
+            </div>
+            <hr className="text-[#444444]" />
+            <div className="flex justify-between font-semibold text-sm">
+              <h1>Hold Over The Weekend: </h1>
+              <h1 className="text-[#42FF23]">Allowed</h1>
+            </div>
+            <hr className="text-[#444444]" />
+            <div className="flex justify-between font-semibold text-sm">
+              <h1>EA's & News Trading: </h1>
+              <h1 className="text-[#42FF23]">Allowed</h1>
+            </div>
+            <hr className="text-[#444444]" />
+            <div className="flex justify-between font-semibold text-sm">
+              <h1>First Payout: </h1>
+              <h1 className="text-[#42FF23]"> On Demand</h1>
+            </div>
+            <hr className="text-[#444444]" />
+            <div className="flex justify-between font-semibold text-sm">
+              <h1>Payout Schedule: </h1>
+              <h1 className="text-[#42FF23]"> Biweekly</h1>
+            </div>
+            <hr className="text-[#444444]" />
+            <div className="flex justify-between font-semibold text-sm">
+              <h1>Registration Fee: </h1>
+              <h1 className="text-[#42FF23]"> Refundable</h1>
+            </div>
+            <hr className="text-[#444444]" />
+            <div className="flex justify-between font-semibold text-sm pt-5">
+              <h1 className="text-[#35FFDB]">
+                *** Challenge purchase fees will refund with first payout.
+              </h1>
+            </div>
+          </div>
+        </div>
         {/* Products Grid */}
-        <div className="grid grid-cols-5 gap-4">
+        <div className="grid  lg:flex gap-12 w-full lg:w-2/3 overflow-x-auto">
           {products.map(product => (
             <div
               key={product.id}
-              className="max-w-[350px] space-y-4 rounded-lg bg-white p-6 shadow-lg md:w-[350px] dark:bg-[#18181B]"
+              className="bg-gradient-to-bl from-blue-700 via-pink-400 to-white  rounded-3xl border-white border-4 bg-white p-6 shadow-lg w-full lg:w-[350px]  h-[340px] lg:h-[370px] dark:bg-[#18181B]  "
             >
-              <div className="grid gap-2">
-                <h1 className="text-lg font-semibold">
+              <div className="grid gap-8">
+                <div className="text-3xl font-bold">${product.price}</div>
+                <h1 className="text-[36px] font-bold">
                   {product.product_name}
                 </h1>
-                <p className="text-sm text-gray-500 dark:text-white/60">
+                <p className="text-2xl text-white font-bold ">
                   {product.short_description}
                 </p>
-                <div className="text-lg font-semibold">${product.price}</div>
               </div>
-              <div className="flex gap-4">
+              <div className="flex justify-center gap-4 pt-8">
                 <button
                   onClick={() => handleNumber(product.price)}
-                  className="rounded-lg bg-slate-800 px-6 py-2 text-[12px] font-semibold text-white duration-300 hover:bg-slate-950 sm:text-sm md:text-base"
+                  className="rounded-3xl shadow-green-500 shadow-md bg-slate-800 px-6 py-2 text-[12px] font-semibold text-white duration-300 hover:bg-slate-950 sm:text-sm md:text-base flex justify-center bg-gradient-to-r from-[#1F5EFF]  to-[#FB2CFF] "
                 >
                   Add to Cart
                 </button>
               </div>
             </div>
           ))}
-        </div>
-
-        {/* Show the last clicked price below all products */}
-        <div className="mt-10 p-6 bg-black rounded-lg shadow-lg text-center">
-          {selectedPrice !== null ? (
-            <p className="mt-2 text-lg font-semibold text-green-600">
-              Price: ${selectedPrice}
-            </p>
-          ) : (
-            <p className="text-gray-500"></p>
-          )}
         </div>
       </div>
     </div>

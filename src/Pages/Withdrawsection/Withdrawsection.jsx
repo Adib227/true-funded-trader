@@ -7,9 +7,9 @@ const Withdrawsection = () => {
       <div className="grid lg:flex justify-evenly w-full  mx-auto">
         <div className="pt-16 space-y-16">
           <h1 className="">
-            <span className="text-4xl lg:text-5xl font-bold">ON DEMAND</span>
+            <span className="text-3xl lg:text-5xl font-bold">ON DEMAND</span>
             <br />
-            <span className="text-6xl lg:text-[68px] font-extrabold bg-gradient-to-r from-[#FF2E00] via-[#FFF500] to-white  animate-[gradientText_9s_infinite_alternate_linear] bg-[length:200%_200%] duration-100 bg-clip-text text-transparent">
+            <span className="text-5xl lg:text-[68px] font-extrabold bg-gradient-to-r from-[#FF2E00] via-[#FFF500] to-white  animate-[gradientText_9s_infinite_alternate_linear] bg-[length:200%_200%] duration-100 bg-clip-text text-transparent">
               WITHDRAWAL
             </span>
           </h1>

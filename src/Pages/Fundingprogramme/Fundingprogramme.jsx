@@ -168,7 +168,11 @@ const Fundingprogramme = () => {
           className="grid items-center py-12
         "
         >
-          <img src="https://i.ibb.co.com/XxD2hq3F/Group.png" alt="" />
+          <img
+            className="w-96 lg:w-full"
+            src="https://i.ibb.co.com/XxD2hq3F/Group.png"
+            alt=""
+          />
         </div>
         {/* image end */}
 

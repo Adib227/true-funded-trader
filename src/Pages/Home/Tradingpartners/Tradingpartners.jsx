@@ -17,7 +17,7 @@ const Tradingpartners = () => {
           />
         </div>
         <div className="flex justify-evenly max-w-[570px] mx-auto h-24 w-full lg:w-[570px] bg-green-200 rounded-2xl -mt-2 lg:-mt-32 bg-gradient-to-r from-[#0147e4] via-[#FE55EF] to-[#0046E2] ">
-          <h1 className="flex justify-center items-center text-2xl font-bold">
+          <h1 className="flex justify-center items-center text-xl lg:text-2xl font-bold">
             MetaTrader 4
           </h1>
           <img
@@ -25,7 +25,7 @@ const Tradingpartners = () => {
             src="https://i.ibb.co.com/7NZxk4p5/metatardere-1.png"
             alt=""
           />
-          <h1 className="flex justify-center items-center text-2xl font-bold">
+          <h1 className="flex justify-center items-center text-xl lg:text-2xl font-bold">
             MetaTrader 5
           </h1>
         </div>
