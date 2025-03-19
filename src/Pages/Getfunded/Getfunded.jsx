@@ -13,10 +13,10 @@ const Getfunded = () => {
       className="h-full lg:h-[900px]  text-white  bg-[#05133B] "
     >
       <div className="text-center pt-14 space-y-4">
-        <h1 className="text-3xl lg:text-[42px] font-semibold lg:font-bold">
+        <h1 className="text-3xl lg:text-[42px] font-semibold lg:font-bold p-2">
           Step To Get Funded
         </h1>
-        <p className="text-sm lg:text-[16px] font-medium lg:font-semibold">
+        <p className="text-sm lg:text-[16px] font-medium lg:font-semibold p-2">
           Choose between a 1 or 2 step challenge and pass them to get funded
           today.
         </p>

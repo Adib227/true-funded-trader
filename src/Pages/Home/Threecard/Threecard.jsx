@@ -6,18 +6,20 @@ const Threecard = () => {
     >
       <div className="w-full lg:w-[1620px] mx-auto ">
         <div className="space-y-3 pt-11 pb-16">
-          <p className="text-[14px] lg:text-[16px] font-bold">How to Start</p>
-          <h1 className="text-2xl lg:text-4xl font-bold">
+          <p className="text-[14px] lg:text-[16px] font-bold p-2">
+            How to Start
+          </p>
+          <h1 className="text-2xl lg:text-4xl font-bold p-2">
             Get Started with 3 Simple Steps
           </h1>
-          <p className="text-xs lg:text-[14px] font-normal">
+          <p className="text-xs lg:text-[14px] font-normal p-2">
             From registration to earning we are committed to transforming the
             way easier, Smarter <br /> and more inclusive for ever trader.
           </p>
         </div>
       </div>
       {/* Card section Starts here */}
-      <div className="grid lg:flex w-full lg:w-[1600px] mx-auto justify-between ">
+      <div className="grid lg:flex w-[420px] lg:w-[1600px] mx-auto justify-between ">
         <div className=" h-[303px] animate-rotate-border rounded-2xl  bg-conic/[from_var(--border-angle)] from-[#FF6523] to-[#993D1503] from-40% to-70% p-1.5 mb-14  shadow-orange-400 shadow-[0px_0px_25px_rgba(0,0,0,0.3)]">
           <div
             className="  w-96 lg:w-[420px] h-[290px] bg-gradient-to-b from-[#FF6523] to-[#FFFFFF] rounded-2xl 

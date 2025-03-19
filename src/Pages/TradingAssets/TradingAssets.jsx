@@ -5,10 +5,10 @@ const TradingAssets = () => {
       className="pt-4 lg:pt-16 h-full lg:h-[750px] "
     >
       <div className="text-center ">
-        <h1 className="font-bold text-3xl lg:text-5xl">
+        <h1 className="font-bold text-3xl lg:text-5xl p-2">
           Trading Assets We are Offering
         </h1>
-        <p className="font-normal text-xs lg:text-[14px] pt-4">
+        <p className="font-normal text-xs lg:text-[14px] pt-4 p-3">
           with over 300 products listed at our partner broker. We offer traders
           one of the largest selection in the trading space for user to take
           profit on!

@@ -5,10 +5,10 @@ const Connectpage = () => {
         style={{ fontFamily: 'Montserrat, sans-serif' }}
         className="text-center pt-16 lg:pt-11"
       >
-        <h1 className="text-5xl font-bold bg-gradient-to-r from-black to-gray-400  bg-clip-text text-transparent ">
+        <h1 className="text-5xl font-bold bg-gradient-to-r from-black to-gray-400  bg-clip-text text-transparent p-2">
           Connect With Us
         </h1>
-        <p className="text-xl pt-4 pb-7 font-bold bg-gradient-to-r from-black to-gray-400  bg-clip-text text-transparent">
+        <p className="text-xl pt-4 pb-7 font-bold bg-gradient-to-r from-black to-gray-400  bg-clip-text text-transparent p-3">
           We are here to answer any question you may have
         </p>
       </div>

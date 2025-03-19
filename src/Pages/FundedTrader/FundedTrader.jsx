@@ -25,7 +25,7 @@ const FundedTrader = () => {
           <h2 className="text-4xl lg:text-5xl font-bold text-center lg:text-start">
             About
           </h2>
-          <h1 className="text-6xl lg:text-7xl font-bold mb-4 lg:mb-24 text-center lg:text-start">
+          <h1 className="text-6xl lg:text-7xl font-bold mb-16 lg:mb-24 text-center lg:text-start">
             True Funded Trader
           </h1>
           <a
@@ -39,7 +39,7 @@ const FundedTrader = () => {
         </div>
 
         {/* Right Side Content */}
-        <div className="relative  z-10 max-w-none pt-16 lg:pt-24 pb-10 text-gray-700 mt-8 lg:mt-0  mx-auto   w-full text-lg lg:text-[22px] font-normal">
+        <div className="relative  z-10 max-w-none pt-16 lg:pt-24 pb-10 text-gray-700 mt-8 lg:mt-0  mx-auto   w-full text-lg lg:text-[22px] font-normal p-4">
           <p>
             We're a team of elite financial professionals whose unwavering focus
             is empowering traders with the tools and resources to achieve

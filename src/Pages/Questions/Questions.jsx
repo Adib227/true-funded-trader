@@ -8,7 +8,10 @@ const Questions = () => {
         Frequently Asked Questions
       </div>
       <div className="grid lg:flex w-full lg:w-[1500px] mx-auto justify-between ">
-        <div style={{ fontFamily: 'Inter, sans-serif' }} className="space-y-5">
+        <div
+          style={{ fontFamily: 'Inter, sans-serif' }}
+          className="space-y-5 p-2"
+        >
           <div className="collapse  bg-base-100 border border-[#767676]">
             <input type="radio" name="my-accordion-2" />
             <div className="collapse-title font-normal text-xl bg-[#151718] flex justify-between p-4">
@@ -87,7 +90,7 @@ const Questions = () => {
         </div>
         <div
           style={{ fontFamily: 'Inter, sans-serif' }}
-          className="space-y-5 pt-10 lg:pt-0"
+          className="space-y-5 pt-10 lg:pt-0 p-2"
         >
           {' '}
           <div className="collapse  bg-base-100 border border-[#767676]">

@@ -10,7 +10,7 @@ const Optionsection = () => {
     >
       <div>
         <div className="absolute  w-96 h-96 bg-[#1A2BC630] opacity-100 rounded-full blur-3xl ml-auto lg:ml-72"></div>
-        <h1 className=" text-5xl font-extrabold text-center py-12 ">
+        <h1 className=" text-5xl font-extrabold text-center py-12 p-4">
           Compare Your Option{' '}
         </h1>
         <div className="absolute  w-96 h-96 bg-[#1A2BC630] opacity-100 rounded-full blur-3xl right-auto lg:right-90 "></div>
@@ -112,7 +112,7 @@ const Optionsection = () => {
           href=""
           onMouseEnter={() => setText('View Challenges')}
           onMouseLeave={() => setText('Get Funded Now')}
-          className="relative py-4 px-8   bg-gradient-to-r from-[#FF5C00] via-[#0DFFF0] to-[#FA0DFF] animate-[gradientMove_8s_infinite_alternate_linear] bg-[length:200%_200%] rounded-4xl font-bold  hover:bg-blue-950 hover:bg-none border-0 shadow-xl   hover:border-2 hover:border-[#0DFFF0]   transition-all  duration-75 text-[15px] text-white ml-36 lg:ml-0"
+          className="relative py-4 px-8   bg-gradient-to-r from-[#FF5C00] via-[#0DFFF0] to-[#FA0DFF] animate-[gradientMove_8s_infinite_alternate_linear] bg-[length:200%_200%] rounded-4xl font-bold  hover:bg-blue-950 hover:bg-none border-0 shadow-xl   hover:border-2 hover:border-[#0DFFF0]   transition-all  duration-75 text-[15px] text-white ml-20 lg:ml-0"
         >
           {text}
         </a>

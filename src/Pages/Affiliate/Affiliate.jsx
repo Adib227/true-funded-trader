@@ -6,16 +6,16 @@ const Affiliate = () => {
     >
       <div className="space-y-3">
         {' '}
-        <h1 className="pt-14">
-          <span className="text-5xl font-bold">OUR </span>
-          <span className="text-7xl font-extrabold bg-gradient-to-r from-[#FF2E00] via-[#FFF500] to-white   animate-[gradientText_9s_infinite_alternate_linear] bg-[length:200%_200%] duration-100 bg-clip-text text-transparent">
+        <h1 className="pt-14 p-3">
+          <span className="text-4xl lg:text-5xl font-bold">OUR </span>
+          <span className="text-5xl lg:text-7xl font-extrabold bg-gradient-to-r from-[#FF2E00] via-[#FFF500] to-white   animate-[gradientText_9s_infinite_alternate_linear] bg-[length:200%_200%] duration-100 bg-clip-text text-transparent">
             {' '}
             AFFILIATE{' '}
           </span>
-          <span className="text-5xl font-bold">PROGRAM</span>
+          <span className="text-4xl lg:text-5xl font-bold">PROGRAM</span>
         </h1>
         <hr className="text-[#999999] w-full lg:w-xl mx-auto" />
-        <p className="text-3xl font-bold">
+        <p className="text-2xl lg:text-3xl font-bold p-3">
           Help us get closer to trading talent
         </p>
       </div>

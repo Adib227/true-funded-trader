@@ -45,13 +45,13 @@ const Testimonial = () => {
       </div>
       <div
         style={{ fontFamily: 'Roboto, sans-serif' }}
-        className="max-w-[1680px] mx-auto pt-4 lg:pt-14"
+        className="w-full lg:w-[1680px] mx-auto pt-4 lg:pt-14"
       >
         <div>
-          <h1 className="text-2xl font-bold items-stretch">
+          <h1 className="text-2xl font-bold items-stretch p-3">
             What customers say about us{' '}
           </h1>
-          <p className="font-normal text-[16px] text-[#364667] items-stretch">
+          <p className="font-normal text-[16px] text-[#364667] items-stretch p-3">
             We do our best to provide you the best experience ever
           </p>
         </div>

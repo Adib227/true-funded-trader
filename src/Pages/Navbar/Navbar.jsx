@@ -5,11 +5,11 @@ const Navbar = () => {
   };
   return (
     <div
-      className="absolute top-5 w-full lg:max-w-[1920px] mx-auto  left-1/2 transform -translate-x-1/2 sm:w-full md:[1280px]  bg-gradient-to-r from-[#FFFFFF12] to-[#FFFFFF26] mt-2 rounded-lg "
+      className="absolute top-5 w-full lg:max-w-[1920px] mx-auto  left-1/2 transform -translate-x-1/2 sm:w-full md:[1280px] lg:[1920px]  bg-gradient-to-r from-[#FFFFFF12] to-[#FFFFFF26] mt-2 rounded-lg "
       style={Navbackground}
       // style="background: linear-gradient(90deg, rgba(255, 255, 255, 0.15) 0%, rgba(255, 255, 255, 0.07) 49%, rgba(255, 255, 255, 0.15) 100%);"
     >
-      <div className="navbar">
+      <div className="navbar ">
         <div className="navbar-start ">
           <div className="dropdown">
             <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">

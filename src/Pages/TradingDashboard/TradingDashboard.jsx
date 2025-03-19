@@ -6,13 +6,13 @@ const TradingDashboard = () => {
         className="bg-[#05133B] text-center text-white h-full lg:h-[948px] pt-6 lg:pt-16"
       >
         <div className="absolute left-6 lg:left-64 mt-10 lg:mt-[500px]  w-96 h-96 bg-blue-400 opacity-30 blur-[120px]  rounded-full"></div>
-        <h1>
+        <h1 className="p-2">
           <span className="text-5xl lg:text-7xl font-medium">Our Modern</span>
           <span className="text-5xl lg:text-7xl font-extrabold bg-gradient-to-r from-[#FF2E00] via-[#FFF500] to-[#FFFFFF]  animate-[gradientText_9s_infinite_alternate_linear] bg-[length:200%_200%] duration-100  bg-clip-text text-transparent ml-3">
             Trading Dashboard
           </span>
         </h1>
-        <p className="text-sm lg:text-lg font-normal w-full lg:w-[1100px] mx-auto pt-7">
+        <p className="text-sm lg:text-lg font-normal w-full lg:w-[1100px] mx-auto pt-7 p-3">
           We offer our traders advanced trading analytics, which allows our
           traders to assess their trading status and performance in depth to
           highlight key areas that need improve and also areas of consistent

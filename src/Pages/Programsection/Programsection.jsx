@@ -3,6 +3,7 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import { Pagination } from 'swiper/modules';
 import 'swiper/css/pagination';
+import * as React from 'react';
 
 const Programsection = () => {
   const products = [
@@ -129,7 +130,7 @@ const Programsection = () => {
         {/* Show the last clicked price below all products */}
         <div
           style={{ fontFamily: 'Inter, sans-serif' }}
-          className="mt-10 p-2  rounded-lg shadow-lg text-center w-full lg:w-1/3"
+          className="mt-10 p-2  rounded-lg shadow-lg text-center w-full lg:w-1/3 "
         >
           {selectedPrice !== null ? (
             <p className=" text-lg font-bold text-white text-[36px] ">
@@ -207,7 +208,7 @@ const Programsection = () => {
           </div>
         </div>
         {/* Products Grid */}
-        <div className="grid  lg:flex gap-12 w-full lg:w-2/3 overflow-x-auto">
+        <div className="grid  lg:flex gap-12 w-full lg:w-2/3 overflow-x-auto pt-4 lg:pt-28">
           {products.map(product => (
             <div
               key={product.id}
@@ -227,7 +228,7 @@ const Programsection = () => {
                   onClick={() => handleNumber(product.price)}
                   className="rounded-3xl shadow-green-500 shadow-md bg-slate-800 px-6 py-2 text-[12px] font-semibold text-white duration-300 hover:bg-slate-950 sm:text-sm md:text-base flex justify-center bg-gradient-to-r from-[#1F5EFF]  to-[#FB2CFF] "
                 >
-                  Add to Cart
+                  Let's Go
                 </button>
               </div>
             </div>
