@@ -10,8 +10,8 @@ const Fourcards = () => {
       </div>
       <div className="grid lg:flex w-full lg:w-[1300px] mx-auto justify-between  ">
         <div className="pt-20">
-          <div className="w-[400px] lg:w-full h-[272px]  animate-rotate-border rounded-2xl  bg-conic/[from_var(--border-angle)] from-[#FF6523] to-[#993D1503] from-50% to-70% p-1.5 mb-14  shadow-orange-400 shadow-[0px_0px_25px_rgba(0,0,0,0.3)] ">
-            <div className="flex p-8 rounded-2xl bg-gradient-to-r from-[#8C18FF] to-[#27FFCB] w-full lg:w-[575px] h-[260px] mx-auto justify-between ">
+          <div className="w-[385px] lg:w-full h-[272px]  animate-rotate-border rounded-2xl  bg-conic/[from_var(--border-angle)] from-[#FF6523] to-[#993D1503] from-50% to-70% p-1.5 mb-14  shadow-orange-400 shadow-[0px_0px_25px_rgba(0,0,0,0.3)] ">
+            <div className="flex p-8 rounded-2xl bg-gradient-to-r from-[#8C18FF] to-[#27FFCB] w-full  lg:w-[575px] h-[260px] mx-auto justify-between ">
               <div className="pt-0 lg:pt-6">
                 {' '}
                 <h1 className="font-bold text-4xl lg:text-[40px]">
@@ -27,7 +27,7 @@ const Fourcards = () => {
               </div>
             </div>
           </div>
-          <div className="w-[400px] lg:w-full h-[272px] animate-rotate-border rounded-2xl  bg-conic/[from_var(--border-angle)] from-[#FF6523] to-[#993D1503] from-50% to-70% p-1.5 shadow-orange-400 shadow-[0px_0px_25px_rgba(0,0,0,0.3)] ">
+          <div className="w-[385px] lg:w-full h-[272px] animate-rotate-border rounded-2xl  bg-conic/[from_var(--border-angle)] from-[#FF6523] to-[#993D1503] from-50% to-70% p-1.5 shadow-orange-400 shadow-[0px_0px_25px_rgba(0,0,0,0.3)] ">
             <div className="flex p-8 rounded-2xl bg-gradient-to-r to-[#272FFF] from-[#18FF75] w-full lg:w-[575px] h-[260px] mx-auto justify-between ">
               <div className="pt-0 lg:pt-6">
                 {' '}
@@ -42,7 +42,7 @@ const Fourcards = () => {
           </div>
         </div>
         <div className="pt-20 pb-12">
-          <div className="w-[400px] lg:w-full h-[272px] animate-rotate-border rounded-2xl  bg-conic/[from_var(--border-angle)] from-[#FF6523] to-[#993D1503] from-50% to-70% p-1.5 mb-14 shadow-orange-400 shadow-[0px_0px_25px_rgba(0,0,0,0.3)] ">
+          <div className="w-[385px] lg:w-full h-[272px] animate-rotate-border rounded-2xl  bg-conic/[from_var(--border-angle)] from-[#FF6523] to-[#993D1503] from-50% to-70% p-1.5 mb-14 shadow-orange-400 shadow-[0px_0px_25px_rgba(0,0,0,0.3)] ">
             <div className="flex p-8 rounded-2xl bg-gradient-to-r from-[#3918FF] to-[#ADFF27] w-full lg:w-[575px] h-[260px] mx-auto justify-between">
               <div className="pt-0 lg:pt-6">
                 {' '}
@@ -57,7 +57,7 @@ const Fourcards = () => {
               </div>
             </div>
           </div>
-          <div className="w-[400px] lg:w-full h-[272px] animate-rotate-border  rounded-2xl  bg-conic/[from_var(--border-angle)] from-[#FF6523] to-[#993D1503] from-50% to-70% p-1.5 shadow-orange-400 shadow-[0px_0px_25px_rgba(0,0,0,0.3)] ">
+          <div className="w-[385px] lg:w-full h-[272px] animate-rotate-border  rounded-2xl  bg-conic/[from_var(--border-angle)] from-[#FF6523] to-[#993D1503] from-50% to-70% p-1.5 shadow-orange-400 shadow-[0px_0px_25px_rgba(0,0,0,0.3)] ">
             <div className="flex p-8 rounded-2xl bg-gradient-to-r from-[#18FFD5] to-[#C727FF] w-full lg:w-[575px] h-[260px] mx-auto justify-between">
               <div className="pt-0 lg:pt-6">
                 {' '}

@@ -28,8 +28,8 @@ const Twocards = () => {
           </h1>
           <div>
             {' '}
-            <div className="w-[400px] lg:w-full h-[272px]  animate-rotate-border rounded-2xl  bg-conic/[from_var(--border-angle)] from-[#FF6523] to-[#993D1503] from-50% to-70% p-1.5 mb-14  shadow-orange-400 shadow-[0px_0px_25px_rgba(0,0,0,0.3)] ">
-              <div className="flex p-5  rounded-2xl bg-gradient-to-r from-[#8C18FF] to-[#27FFCB] w-full lg:w-[575px] h-[260px] mx-auto justify-between ">
+            <div className="w-[380px] lg:w-full h-[272px]  animate-rotate-border rounded-2xl  bg-conic/[from_var(--border-angle)] from-[#FF6523] to-[#993D1503] from-50% to-70% p-1.5 mb-14  shadow-orange-400 shadow-[0px_0px_25px_rgba(0,0,0,0.3)] ">
+              <div className="flex p-5  rounded-2xl bg-gradient-to-r from-[#8C18FF] to-[#27FFCB] w-[370px] lg:w-[575px] h-[260px] mx-auto justify-between ">
                 <div className="pt-12 lg:pt-6 ">
                   {' '}
                   <h1 className="font-bold text-[32px]">Revenue Sharing </h1>
@@ -51,8 +51,8 @@ const Twocards = () => {
           </div>
           <div>
             {' '}
-            <div className="w-[400px] lg:w-full h-[272px]  animate-rotate-border rounded-2xl  bg-conic/[from_var(--border-angle)] from-[#FF6523] to-[#993D1503] from-50% to-70% p-1.5 mb-14  shadow-orange-400 shadow-[0px_0px_25px_rgba(0,0,0,0.3)] ">
-              <div className="flex p-5  rounded-2xl bg-gradient-to-r from-[#18ACFF] to-[#C727FF] w-full lg:w-[575px] h-[260px] mx-auto justify-between ">
+            <div className="w-[380px] lg:w-full h-[272px]  animate-rotate-border rounded-2xl  bg-conic/[from_var(--border-angle)] from-[#FF6523] to-[#993D1503] from-50% to-70% p-1.5 mb-14  shadow-orange-400 shadow-[0px_0px_25px_rgba(0,0,0,0.3)] ">
+              <div className="flex p-5  rounded-2xl bg-gradient-to-r from-[#18ACFF] to-[#C727FF] w-[370px]  lg:w-[575px] h-[260px] mx-auto justify-between ">
                 <div className="">
                   {' '}
                   <h1 className="font-bold text-[32px]">

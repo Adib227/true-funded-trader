@@ -20,9 +20,9 @@ const Threecard = () => {
       </div>
       {/* Card section Starts here */}
       <div className="grid lg:flex w-[420px] lg:w-[1600px] mx-auto justify-between ">
-        <div className=" h-[303px] animate-rotate-border rounded-2xl  bg-conic/[from_var(--border-angle)] from-[#FF6523] to-[#993D1503] from-40% to-70% p-1.5 mb-14  shadow-orange-400 shadow-[0px_0px_25px_rgba(0,0,0,0.3)]">
+        <div className="w-[382px] lg:w-auto h-[303px] animate-rotate-border rounded-2xl  bg-conic/[from_var(--border-angle)] from-[#FF6523] to-[#993D1503] from-40% to-70% p-1.5 mb-14  shadow-orange-400 shadow-[0px_0px_25px_rgba(0,0,0,0.3)]">
           <div
-            className="  w-96 lg:w-[420px] h-[290px] bg-gradient-to-b from-[#FF6523] to-[#FFFFFF] rounded-2xl 
+            className="  w-[370px] lg:w-[420px] h-[290px] bg-gradient-to-b from-[#FF6523] to-[#FFFFFF] rounded-2xl 
          p-6 space-y-3  shadow-[10px_0px_10px_rgba(0.9,0,0,0.3)] "
           >
             <h1 className="text-[16px] font-bold">STEP 1</h1>
@@ -40,8 +40,8 @@ const Threecard = () => {
           </div>
         </div>
 
-        <div className=" h-[303px] animate-rotate-border rounded-2xl  bg-conic/[from_var(--border-angle)] from-[#FF6523] to-[#993D1503] from-40% to-70% p-1.5 mb-14  shadow-orange-400 shadow-[0px_0px_25px_rgba(0,0,0,0.3)]">
-          <div className="w-96 lg:w-[420px] h-[290px] bg-gradient-to-b from-[#FF6523] to-[#FFFFFF] rounded-2xl p-6 space-y-3 shadow-[10px_0px_10px_rgba(0.9,0,0,0.3)]">
+        <div className="w-[382px] lg:w-auto h-[303px] animate-rotate-border rounded-2xl  bg-conic/[from_var(--border-angle)] from-[#FF6523] to-[#993D1503] from-40% to-70% p-1.5 mb-14  shadow-orange-400 shadow-[0px_0px_25px_rgba(0,0,0,0.3)]">
+          <div className="w-[370px] lg:w-[420px] h-[290px] bg-gradient-to-b from-[#FF6523] to-[#FFFFFF] rounded-2xl p-6 space-y-3 shadow-[10px_0px_10px_rgba(0.9,0,0,0.3)]">
             <h1 className="text-[16px] font-bold">STEP 2</h1>
             <img
               src="https://i.ibb.co.com/TDcMKnpg/Rectangle-removebg-preview.png"
@@ -56,9 +56,9 @@ const Threecard = () => {
             </p>
           </div>
         </div>
-        <div className=" h-[303px] animate-rotate-border rounded-2xl  bg-conic/[from_var(--border-angle)] from-[#FF6523] to-[#993D1503] from-40% to-70% p-1.5 mb-14  shadow-orange-400 shadow-[0px_0px_25px_rgba(0,0,0,0.3)]">
+        <div className="w-[382px] lg:w-auto h-[303px] animate-rotate-border rounded-2xl  bg-conic/[from_var(--border-angle)] from-[#FF6523] to-[#993D1503] from-40% to-70% p-1.5 mb-14  shadow-orange-400 shadow-[0px_0px_25px_rgba(0,0,0,0.3)]">
           {' '}
-          <div className="w-96 lg:w-[420px] h-[290px] bg-gradient-to-b from-[#FF6523] to-[#FFFFFF] rounded-2xl p-6 space-y-3 shadow-[10px_0px_10px_rgba(0.9,0,0,0.3)]">
+          <div className="w-[370px] lg:w-[420px] h-[290px] bg-gradient-to-b from-[#FF6523] to-[#FFFFFF] rounded-2xl p-6 space-y-3 shadow-[10px_0px_10px_rgba(0.9,0,0,0.3)]">
             <h1 className="text-[16px] font-bold">STEP 3</h1>
             <img
               src="https://i.ibb.co.com/ZpXvChrt/Rectangle-1-removebg-preview.png"

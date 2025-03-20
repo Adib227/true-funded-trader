@@ -169,7 +169,7 @@ const Home = () => {
                   <p className="flex items-center justify-center">
                     <img
                       className="mr-5 ml-8 w-14 h-14"
-                      src="https://s3-alpha-sig.figma.com/img/f978/08cb/b01d3cb9bc6e9976fa4adf045d8826e7?Expires=1742169600&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=NDQjt53dFjiugwfvRETLfTBsVVcQMfwqt2d9rSLvvO2lYux3mL9Wvui2YBjOoaWUVrIEd3PW5kCNM8Ep1vDFW6hCbR5ajaYB-6GVtvZSWqgAPeFmkL3vwWByC46b4-uqIu9cJ7gw6LdN1xrRAU1U2eH~0bPj-19momiE-UV1XxfoiaQTzvRdc4fUkRwym8evMU5SLAZRTn11zQRT7SUCS4YtKmFCboavDzaDE40lpfN94XPuIac6J460nfen~SZJncfl6avhqcDQFVp6vQV6lrj9KpoSXJagBPWO71PK9MiZ-vkpK0BmKpOplhFufoDKqsPpA2hJG9BbeM6hEu3Gjw__"
+                      src="https://s3-alpha-sig.figma.com/img/f978/08cb/b01d3cb9bc6e9976fa4adf045d8826e7?Expires=1743379200&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=Jt3~YUsD-cL-77IkHuXNIMYKb6DiBy9ZJWOonvIr50jM9p4Cg9ogttDvAMAYTD787sGyECxbs0KBezJZPhPyOTfdT87GDTAtXqT-p2ocIbVWtgesVzf6EFAnNSIA9a2bkSPzsb5anFLBXC94lg8V33jg295Jrkkgoj8P8FsvYcJ24Nk7bUl8VX6Ig0OFdtKzJolSoSPD3lI23-esbhfHA2yUJGVHbbQAxhGVSsQHW-WSQmffXQ9nNH6yxZZG94rpebYCJFSWOpTghPhfpOE4ExZhgmBLwCD1Y8rOrctl6eIU6AwUe-hQMAZg2zvqCDjXkXXHXOs7g4XSXoSMys5hxw__"
                       alt=""
                     />
                     <span className=" font-semibold text-lg bg-gradient-to-r from-[#FF2E00] via-[#FFF500] to-[#1BF1FF]  bg-clip-text text-transparent">
@@ -179,7 +179,7 @@ const Home = () => {
                   <p className="flex items-center justify-center">
                     <img
                       className="mr-5 ml-8 w-14 h-14"
-                      src="https://s3-alpha-sig.figma.com/img/f978/08cb/b01d3cb9bc6e9976fa4adf045d8826e7?Expires=1742169600&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=NDQjt53dFjiugwfvRETLfTBsVVcQMfwqt2d9rSLvvO2lYux3mL9Wvui2YBjOoaWUVrIEd3PW5kCNM8Ep1vDFW6hCbR5ajaYB-6GVtvZSWqgAPeFmkL3vwWByC46b4-uqIu9cJ7gw6LdN1xrRAU1U2eH~0bPj-19momiE-UV1XxfoiaQTzvRdc4fUkRwym8evMU5SLAZRTn11zQRT7SUCS4YtKmFCboavDzaDE40lpfN94XPuIac6J460nfen~SZJncfl6avhqcDQFVp6vQV6lrj9KpoSXJagBPWO71PK9MiZ-vkpK0BmKpOplhFufoDKqsPpA2hJG9BbeM6hEu3Gjw__"
+                      src="https://s3-alpha-sig.figma.com/img/f978/08cb/b01d3cb9bc6e9976fa4adf045d8826e7?Expires=1743379200&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=Jt3~YUsD-cL-77IkHuXNIMYKb6DiBy9ZJWOonvIr50jM9p4Cg9ogttDvAMAYTD787sGyECxbs0KBezJZPhPyOTfdT87GDTAtXqT-p2ocIbVWtgesVzf6EFAnNSIA9a2bkSPzsb5anFLBXC94lg8V33jg295Jrkkgoj8P8FsvYcJ24Nk7bUl8VX6Ig0OFdtKzJolSoSPD3lI23-esbhfHA2yUJGVHbbQAxhGVSsQHW-WSQmffXQ9nNH6yxZZG94rpebYCJFSWOpTghPhfpOE4ExZhgmBLwCD1Y8rOrctl6eIU6AwUe-hQMAZg2zvqCDjXkXXHXOs7g4XSXoSMys5hxw__"
                       alt=""
                     />
                     <span className="font-semibold text-lg bg-gradient-to-r from-[#FF2E00] via-[#FFF500] to-[#1BF1FF]  bg-clip-text text-transparent">
@@ -189,7 +189,7 @@ const Home = () => {
                   <p className="flex items-center justify-center">
                     <img
                       className="mr-5 ml-8 w-14 h-14"
-                      src="https://s3-alpha-sig.figma.com/img/f978/08cb/b01d3cb9bc6e9976fa4adf045d8826e7?Expires=1742169600&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=NDQjt53dFjiugwfvRETLfTBsVVcQMfwqt2d9rSLvvO2lYux3mL9Wvui2YBjOoaWUVrIEd3PW5kCNM8Ep1vDFW6hCbR5ajaYB-6GVtvZSWqgAPeFmkL3vwWByC46b4-uqIu9cJ7gw6LdN1xrRAU1U2eH~0bPj-19momiE-UV1XxfoiaQTzvRdc4fUkRwym8evMU5SLAZRTn11zQRT7SUCS4YtKmFCboavDzaDE40lpfN94XPuIac6J460nfen~SZJncfl6avhqcDQFVp6vQV6lrj9KpoSXJagBPWO71PK9MiZ-vkpK0BmKpOplhFufoDKqsPpA2hJG9BbeM6hEu3Gjw__"
+                      src="https://s3-alpha-sig.figma.com/img/f978/08cb/b01d3cb9bc6e9976fa4adf045d8826e7?Expires=1743379200&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=Jt3~YUsD-cL-77IkHuXNIMYKb6DiBy9ZJWOonvIr50jM9p4Cg9ogttDvAMAYTD787sGyECxbs0KBezJZPhPyOTfdT87GDTAtXqT-p2ocIbVWtgesVzf6EFAnNSIA9a2bkSPzsb5anFLBXC94lg8V33jg295Jrkkgoj8P8FsvYcJ24Nk7bUl8VX6Ig0OFdtKzJolSoSPD3lI23-esbhfHA2yUJGVHbbQAxhGVSsQHW-WSQmffXQ9nNH6yxZZG94rpebYCJFSWOpTghPhfpOE4ExZhgmBLwCD1Y8rOrctl6eIU6AwUe-hQMAZg2zvqCDjXkXXHXOs7g4XSXoSMys5hxw__"
                       alt=""
                     />
                     <span className=" font-semibold text-lg bg-gradient-to-r from-[#FF2E00] via-[#FFF500] to-[#1BF1FF]  bg-clip-text text-transparent">
@@ -199,7 +199,7 @@ const Home = () => {
                   <p className="flex items-center justify-center">
                     <img
                       className="mr-5 ml-8 w-14 h-14"
-                      src="https://s3-alpha-sig.figma.com/img/f978/08cb/b01d3cb9bc6e9976fa4adf045d8826e7?Expires=1742169600&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=NDQjt53dFjiugwfvRETLfTBsVVcQMfwqt2d9rSLvvO2lYux3mL9Wvui2YBjOoaWUVrIEd3PW5kCNM8Ep1vDFW6hCbR5ajaYB-6GVtvZSWqgAPeFmkL3vwWByC46b4-uqIu9cJ7gw6LdN1xrRAU1U2eH~0bPj-19momiE-UV1XxfoiaQTzvRdc4fUkRwym8evMU5SLAZRTn11zQRT7SUCS4YtKmFCboavDzaDE40lpfN94XPuIac6J460nfen~SZJncfl6avhqcDQFVp6vQV6lrj9KpoSXJagBPWO71PK9MiZ-vkpK0BmKpOplhFufoDKqsPpA2hJG9BbeM6hEu3Gjw__"
+                      src="https://s3-alpha-sig.figma.com/img/f978/08cb/b01d3cb9bc6e9976fa4adf045d8826e7?Expires=1743379200&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=Jt3~YUsD-cL-77IkHuXNIMYKb6DiBy9ZJWOonvIr50jM9p4Cg9ogttDvAMAYTD787sGyECxbs0KBezJZPhPyOTfdT87GDTAtXqT-p2ocIbVWtgesVzf6EFAnNSIA9a2bkSPzsb5anFLBXC94lg8V33jg295Jrkkgoj8P8FsvYcJ24Nk7bUl8VX6Ig0OFdtKzJolSoSPD3lI23-esbhfHA2yUJGVHbbQAxhGVSsQHW-WSQmffXQ9nNH6yxZZG94rpebYCJFSWOpTghPhfpOE4ExZhgmBLwCD1Y8rOrctl6eIU6AwUe-hQMAZg2zvqCDjXkXXHXOs7g4XSXoSMys5hxw__"
                       alt=""
                     />
                     <span className=" font-semibold text-lg bg-gradient-to-r from-[#FF2E00] via-[#FFF500] to-[#1BF1FF]  bg-clip-text text-transparent">
