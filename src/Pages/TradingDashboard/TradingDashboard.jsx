@@ -76,7 +76,7 @@ const TradingDashboard = () => {
             />
           </div>
           <div className="space-y-7  pt-20">
-            <div className="px-6 py-3 flex gap-x-3  bg-[#0F1018] text-white font-bold text-xl rounded-xl shadow-xl w-96 h-16 border-1  border-gray-400 transition-transform duration-1000 hover:translate-x-20 ">
+            <div className="px-6 py-3 flex gap-x-3  bg-[#0F1018] text-white font-bold text-xl rounded-xl shadow-xl w-96 h-16 border-1  border-gray-400 transition-transform duration-1000 lg:hover:translate-x-20 ">
               <span>
                 <img
                   className="p-2"
@@ -88,7 +88,7 @@ const TradingDashboard = () => {
                 Advanced Account Analysis
               </span>{' '}
             </div>
-            <div className="px-6 py-3 flex gap-x-3  bg-[#0F1018] text-white font-bold text-xl rounded-xl shadow-xl w-96 h-16 border-1  border-gray-400 transition-transform duration-1000 hover:translate-x-20 ">
+            <div className="px-6 py-3 flex gap-x-3  bg-[#0F1018] text-white font-bold text-xl rounded-xl shadow-xl w-96 h-16 border-1  border-gray-400 transition-transform duration-1000 lg:hover:translate-x-20 ">
               <span>
                 <img
                   className="p-2"
@@ -100,7 +100,7 @@ const TradingDashboard = () => {
                 Advanced Trading Journal
               </span>{' '}
             </div>
-            <div className="px-6 py-3 flex gap-x-3  bg-[#0F1018] text-white font-bold text-xl rounded-xl shadow-xl w-96 h-16 border-1  border-gray-400 transition-transform duration-1000 hover:translate-x-20 ">
+            <div className="px-6 py-3 flex gap-x-3  bg-[#0F1018] text-white font-bold text-xl rounded-xl shadow-xl w-96 h-16 border-1  border-gray-400 transition-transform duration-1000 lg:hover:translate-x-20 ">
               <span>
                 <img
                   className="p-2"
@@ -112,7 +112,7 @@ const TradingDashboard = () => {
                 Everyday Market Data
               </span>{' '}
             </div>
-            <div className="px-6 py-3 flex gap-x-3  bg-[#0F1018] text-white font-bold text-xl rounded-xl shadow-xl w-96 h-16 border-1  border-gray-400 transition-transform duration-1000 hover:translate-x-20 ">
+            <div className="px-6 py-3 flex gap-x-3  bg-[#0F1018] text-white font-bold text-xl rounded-xl shadow-xl w-96 h-16 border-1  border-gray-400 transition-transform duration-1000 lg:hover:translate-x-20 ">
               <span>
                 <img
                   className="p-2"
@@ -124,7 +124,7 @@ const TradingDashboard = () => {
                 Free Trials
               </span>{' '}
             </div>
-            <div className="px-6 py-3 flex gap-x-3  bg-[#0F1018] text-white font-bold text-xl rounded-xl shadow-xl w-96 h-16 border-1  border-gray-400 transition-transform duration-1000 hover:translate-x-20 ">
+            <div className="px-6 py-3 flex gap-x-3  bg-[#0F1018] text-white font-bold text-xl rounded-xl shadow-xl w-96 h-16 border-1  border-gray-400 transition-transform duration-1000 lg:hover:translate-x-20 ">
               <span>
                 <img
                   className="p-2"
@@ -136,7 +136,7 @@ const TradingDashboard = () => {
                 Monthly Competition
               </span>{' '}
             </div>
-            <div className="px-6 py-3 flex gap-x-3  bg-[#0F1018] text-white font-bold text-xl rounded-xl shadow-xl w-96 h-16 border-1  border-gray-400 transition-transform duration-1000 hover:translate-x-20 ">
+            <div className="px-6 py-3 flex gap-x-3  bg-[#0F1018] text-white font-bold text-xl rounded-xl shadow-xl w-96 h-16 border-1  border-gray-400 transition-transform duration-1000 lg:hover:translate-x-20 ">
               <span>
                 <img
                   className="p-2"
